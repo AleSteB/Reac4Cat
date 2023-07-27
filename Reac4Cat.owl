@@ -643,6 +643,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasInitialMixture"/>
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasComponent"/>
@@ -686,6 +687,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasProduct"/>
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasComponent"/>
@@ -4819,6 +4821,12 @@
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Iron">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5031,7 +5039,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_1_NH4_reac -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_1_NH4_reac">
-        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
+        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
     </owl:NamedIndividual>
     
 
@@ -5512,6 +5520,10 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
                 <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Hydrogen"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
