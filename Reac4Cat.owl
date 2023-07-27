@@ -4794,7 +4794,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#HaberBosch -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#HaberBosch">
-        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000589"/>
     </owl:Class>
     
 
@@ -4834,7 +4834,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Methanation -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation">
-        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000589"/>
     </owl:Class>
     
 
