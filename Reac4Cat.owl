@@ -4831,14 +4831,6 @@
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Methan -->
-
-    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methan">
-        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
-    </owl:Class>
-    
-
-
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Methanation -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation">
@@ -4927,6 +4919,14 @@
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation_2">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methanation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Methane -->
+
+    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methane">
+        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
     </owl:Class>
     
 
@@ -5164,7 +5164,7 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Sub_CH3OH -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_CH3OH">
-        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methan"/>
+        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methane"/>
     </owl:NamedIndividual>
     
 
@@ -5428,7 +5428,7 @@
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methan"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methane"/>
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
@@ -5449,7 +5449,7 @@
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methan"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methane"/>
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
@@ -5470,7 +5470,7 @@
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methan"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methane"/>
             </owl:Restriction>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
