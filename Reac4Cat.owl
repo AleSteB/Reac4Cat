@@ -4777,7 +4777,9 @@
 
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Catalyst -->
 
-    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Catalyst"/>
+    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Catalyst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+    </owl:Class>
     
 
 
@@ -4821,12 +4823,7 @@
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Iron">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:comment>HaberBosch and (hasEductComponent some Iron) SubClassOf &apos;has role&apos; some &apos;catalyst role&apos;</rdfs:comment>
     </owl:Class>
     
 
@@ -4947,6 +4944,12 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000533"/>
+            </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </owl:Class>
