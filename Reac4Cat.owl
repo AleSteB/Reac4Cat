@@ -487,6 +487,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
+        <rdfs:comment>Note that this relation was previously called &quot;inheres in&quot;, but was changed to be called &quot;characteristic of&quot; because BFO2 uses &quot;inheres in&quot; in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.</rdfs:comment>
+        <rdfs:label xml:lang="en">characteristic of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -528,6 +532,11 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">is role of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">role_of</obo:IAO_0000118>
+        <rdfs:comment>This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.</rdfs:comment>
+        <rdfs:label xml:lang="en">role of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -644,6 +653,7 @@
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasInitialMixture"/>
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasComponent"/>
@@ -716,6 +726,14 @@
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole">
         <rdfs:subPropertyOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasPromotingMaterial"/>
         <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#is__Methanation_1__enhancing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -5063,6 +5081,14 @@
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role">
+        <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Mix_Educt_HaberBosch -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mix_Educt_HaberBosch">
@@ -5252,6 +5278,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#HaberBosch"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     <owl:Class>
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation_1"/>
