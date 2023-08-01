@@ -4949,26 +4949,6 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Mixture -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mixture">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasComponent"/>
-                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasComponent"/>
-                        <owl:allValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000533"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </owl:Class>
     
@@ -4979,12 +4959,6 @@
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Nickel">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
     </owl:Class>
-    
-
-
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Producte -->
-
-    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Producte"/>
     
 
 
@@ -5007,12 +4981,6 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Substance -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Substance">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#SubstanceRole"/>
-                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </owl:Class>
     
@@ -5051,7 +5019,6 @@
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_1_MeOH_reac -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_1_MeOH_reac">
-        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
         <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ni"/>
     </owl:NamedIndividual>
     
@@ -5065,18 +5032,10 @@
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_2_MeOH_reac -->
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_2_NH4_Reac -->
 
-    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_2_MeOH_reac">
-        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_2_NH4_reac -->
-
-    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_2_NH4_reac">
-        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Substance"/>
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_2_NH4_Reac">
+        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
     </owl:NamedIndividual>
     
 
@@ -5116,6 +5075,17 @@
         <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Cat_1_MeOH_reac"/>
         <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_CO2"/>
         <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_H2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Mix_Educts_HaberBosch1 -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mix_Educts_HaberBosch1">
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Cat_2_NH4_Reac"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_CO2"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_Fe"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ni"/>
     </owl:NamedIndividual>
     
 
@@ -5298,36 +5268,6 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation_1"/>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ni"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#R1_methanationEnhancing"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:oneOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ni"/>
-                                        </owl:oneOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:intersectionOf>
-        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#MethanationCatalysed_1"/>
     </owl:Class>
     <owl:Class>
         <owl:intersectionOf rdf:parseType="Collection">
