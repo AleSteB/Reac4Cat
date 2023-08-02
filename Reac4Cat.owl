@@ -634,12 +634,6 @@ MOP</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#SubstanceRole -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#SubstanceRole"/>
-    
-
-
     <!-- https://nfdi4cat.org/ontologies/reac4cat#hasCatalyst -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasCatalyst"/>
@@ -4798,14 +4792,6 @@ MOP</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Catalyst -->
-
-    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Catalyst">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
-    </owl:Class>
-    
-
-
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Dinitrogen -->
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Dinitrogen">
@@ -4979,14 +4965,6 @@ MOP</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Ruthenium">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#molecule"/>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#Substance -->
-
-    <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Substance">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </owl:Class>
     
 
