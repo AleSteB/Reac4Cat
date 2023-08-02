@@ -30,6 +30,8 @@ for s, p, o in g.triples((None, None, None)):
         nt.add_node(str(o), label=str(o))
         nt.add_edge(str(s), str(o), label=str(p))
 
-# Save and show the interactive visualization
+# Save the interactive visualization to an HTML file
 nt.show_buttons(filter_=['physics'])
-nt.show('ontology_interactive.html')
+html_file_path = 'ontology_interactive.html'
+nt.save_graph(html_file_path)
+print(f"Interactive visualization saved to '{html_file_path}'")
