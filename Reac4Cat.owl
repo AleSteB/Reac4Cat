@@ -634,9 +634,9 @@ MOP</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#catalyzed -->
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#catalyzes -->
 
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#catalyzed">
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#catalyzes">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -719,24 +719,6 @@ MOP</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#has__HaberBosch_2__enhancingRole -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#has__HaberBosch_2__enhancingRole">
-        <rdfs:subPropertyOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasPromotingMaterial"/>
-        <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#is__Methanation_1__enhancing"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole">
-        <rdfs:subPropertyOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasPromotingMaterial"/>
-        <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#is__Methanation_1__enhancing"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf">
@@ -751,18 +733,14 @@ MOP</obo:IAO_0000116>
     
 
 
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#is__HaberBosch_2__enhancing -->
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#is_catalyzed_by -->
 
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#is__HaberBosch_2__enhancing">
-        <rdfs:subPropertyOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#isPromotingMaterial"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://nfdi4cat.org/ontologies/reac4cat#is__Methanation_1__enhancing -->
-
-    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#is__Methanation_1__enhancing">
-        <rdfs:subPropertyOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#isPromotingMaterial"/>
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#is_catalyzed_by">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#catalyzes"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
     </owl:ObjectProperty>
     
 
@@ -2301,6 +2279,12 @@ MOP</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">p is a process boundary =Def. p is a temporal part of a process &amp; p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/084-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">Every process boundary occupies_temporal_region a zero-dimensional temporal region. (axiom label in BFO2 Reference: [085-002])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/085-002"/>
@@ -2315,12 +2299,6 @@ MOP</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/084-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">p is a process boundary =Def. p is a temporal part of a process &amp; p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/084-001"/>
     </owl:Axiom>
     
@@ -4865,66 +4843,6 @@ MOP</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Methanation_1">
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methanation"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ni"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#R1_methanationEnhancing"/>
-                                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_Rh"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#R1_methanationEnhancing"/>
-                                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#has__Methanation_1__enhancingRole"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_Ru"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#R1_methanationEnhancing"/>
-                                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5289,7 +5207,7 @@ MOP</obo:IAO_0000116>
                         </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#catalyzed"/>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#catalyzes"/>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:oneOf rdf:parseType="Collection">
