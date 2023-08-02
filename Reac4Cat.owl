@@ -634,6 +634,14 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#catalyzed -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#catalyzed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#hasCatalyst -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasCatalyst"/>
@@ -5023,6 +5031,14 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Indv_HaberBosch -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_HaberBosch">
+        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#HaberBosch"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role">
@@ -5078,6 +5094,15 @@ MOP</obo:IAO_0000116>
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Mix_Product_HaberBosch -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mix_Product_HaberBosch">
+        <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_NH4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Mix_Product_HaberBosch1 -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mix_Product_HaberBosch1">
         <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture"/>
         <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_NH4"/>
     </owl:NamedIndividual>
@@ -5229,6 +5254,7 @@ MOP</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#unknown_reaction_1">
         <reac4cat:hasInitialMixture rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mix_Educt_HaberBosch1"/>
+        <reac4cat:hasProduct rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mix_Product_HaberBosch1"/>
     </owl:NamedIndividual>
     
 
@@ -5250,16 +5276,30 @@ MOP</obo:IAO_0000116>
             </owl:Restriction>
         </owl:intersectionOf>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_catalyst_role"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#catalyzed"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Indv_HaberBosch"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
     <owl:Class>
