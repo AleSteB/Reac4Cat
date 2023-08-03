@@ -1,0 +1,16 @@
+Just once assert:
+{HaberBosch:{Educts:[Dinitrogen, Hydrogen],
+	     Products:[Ammonia],
+	     Catalyst:[Iron, Nickel]},
+Methanation:{Educts:[Carbon Dioxide, Hydrogen],
+	     Products:[Methane],
+	     Catalyst:[Platinum]},
+...}
+
+##############################################################
+
+Neccessary input from researcher:
+{Reaction_reactorXYZ:{Educt mixture:[CO2, H2, Pt, Ni, Fe],
+		      Product mixture:[CH4, C2H6, H2, H2O]}
+
+ 

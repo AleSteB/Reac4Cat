@@ -5380,6 +5380,35 @@ MOP</obo:IAO_0000116>
     </owl:Class>
     <owl:Class>
         <owl:intersectionOf rdf:parseType="Collection">
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Nickel"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Dinitrogen"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Hydrogen"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Ammonia"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#HaberBosch"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
                 <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Carbondioxid"/>
@@ -5451,27 +5480,6 @@ MOP</obo:IAO_0000116>
             </owl:Restriction>
         </owl:intersectionOf>
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methanation_1"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Dinitrogen"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Hydrogen"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Iron"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Ammonia"/>
-            </owl:Restriction>
-        </owl:intersectionOf>
-        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#HaberBosch"/>
     </owl:Class>
 </rdf:RDF>
 
