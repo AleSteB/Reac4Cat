@@ -719,6 +719,19 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#has_carrier_material -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#has_carrier_material">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#used_as_carrier_material_by"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf -->
 
     <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#isEductComponentOf">
@@ -745,6 +758,14 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#used_as_carrier_material_by -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#used_as_carrier_material_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -765,6 +786,12 @@ MOP</obo:IAO_0000116>
     <!-- https://nfdi4cat.org/ontologies/reac4cat#hasMeanReactionTemperature -->
 
     <owl:DatatypeProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#hasMeanReactionTemperature"/>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#measured_reaction_velocity -->
+
+    <owl:DatatypeProperty rdf:about="https://nfdi4cat.org/ontologies/reac4cat#measured_reaction_velocity"/>
     
 
 
@@ -2250,14 +2277,14 @@ MOP</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
-        <owl:annotatedTarget xml:lang="en">A function is a disposition that exists in virtue of the bearer’s physical make-up and this physical make-up is something the bearer possesses because it came into being, either through evolution (in the case of natural biological entities) or through intentional design (in the case of artifacts), in order to realize processes of a certain sort. (axiom label in BFO2 Reference: [064-001])</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/064-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] </owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">A function is a disposition that exists in virtue of the bearer’s physical make-up and this physical make-up is something the bearer possesses because it came into being, either through evolution (in the case of natural biological entities) or through intentional design (in the case of artifacts), in order to realize processes of a certain sort. (axiom label in BFO2 Reference: [064-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/064-001"/>
     </owl:Axiom>
     
@@ -4989,6 +5016,14 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#CarrierAl -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#CarrierAl">
+        <reac4cat:used_as_carrier_material_by rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_CH3OH"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Cat_1_MeOH_reac -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Cat_1_MeOH_reac">
@@ -5136,6 +5171,27 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_in -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_in">
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_A"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_B"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_D"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_X"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_out -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_out">
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_C"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_D"/>
+        <reac4cat:hasComponent rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_E"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://nfdi4cat.org/ontologies/reac4cat#Reac_1_HaberBosch -->
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Reac_1_HaberBosch">
@@ -5192,6 +5248,18 @@ MOP</obo:IAO_0000116>
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Reaktor1">
         <reac4cat:hasInitialMixture rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac1_in"/>
         <reac4cat:hasProduct rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac1_out"/>
+        <reac4cat:measured_reaction_velocity>0.51644844 [mol/s]</reac4cat:measured_reaction_velocity>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.example.com/michis_krasses_kuchenrezept</dc:date>
+        <skos:note>Michi hat die Reaktion nach Vorbild von Publikation DOI:ueahfo8jfai erstellt</skos:note>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://nfdi4cat.org/ontologies/reac4cat#Reaktor2 -->
+
+    <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Reaktor2">
+        <reac4cat:hasInitialMixture rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_in"/>
+        <reac4cat:hasProduct rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Mixture_reac2_out"/>
     </owl:NamedIndividual>
     
 
@@ -5320,6 +5388,7 @@ MOP</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat#Sub_X">
         <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#X"/>
+        <reac4cat:has_carrier_material rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Sub_CH3OH"/>
     </owl:NamedIndividual>
     
 
@@ -5658,27 +5727,6 @@ MOP</obo:IAO_0000116>
         <owl:intersectionOf rdf:parseType="Collection">
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#C"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#D"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#X"/>
-            </owl:Restriction>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
-                <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#E"/>
-            </owl:Restriction>
-        </owl:intersectionOf>
-        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#TestReaction2"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
                 <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Carbondioxid"/>
             </owl:Restriction>
             <owl:Restriction>
@@ -5748,6 +5796,55 @@ MOP</obo:IAO_0000116>
             </owl:Restriction>
         </owl:intersectionOf>
         <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#Methanation_1"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#A"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#B"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#X"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#E"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#C"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasEductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#X"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#hasProductComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#E"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:unionOf>
+        <rdfs:subClassOf rdf:resource="https://nfdi4cat.org/ontologies/reac4cat#TestReaction2"/>
     </owl:Class>
 </rdf:RDF>
 
