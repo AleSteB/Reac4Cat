@@ -13,6 +13,7 @@
 |	     |Output|C,D,E|
 
 # Expected Reactions
-
+|Reactor|Reaction|
+|:---|:---|
 |Reactor1| Reaction1|
 |Reactor2| Reaction1, Reaction2|
