@@ -1,17 +1,13 @@
-# Reaction 1
-A + B -Cat(X)-> C
+# Asserted Reactions 
+|Reactions| Equation|
+|:---|:---|
+|Reaction 1|A + B -Cat(X)-> C|
+|Reaction 2|C + D -Cat(X)-> E|
 
-# Reaction 2
-C + D -Cat(X)-> E
-
-# Mix Reactor1 in
-B, A, X 
-
-# Mix Reactor1 out
-C, A
-
-# Mix Reactor2 in
-A, B, D, X
-
-# Mix Reactor2 out
-C, D, E
+# User Defined Input
+|Reactor|Input or Output|Composition|
+|:---|:---|:---|
+|Reactor1|Input|B, A, X |
+|		 |Output|A,C|
+|Reactor2|Input|A,B,D,X|
+|	     |Output|C,D,E|
