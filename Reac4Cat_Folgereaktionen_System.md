@@ -12,7 +12,7 @@
 |Reactor2|Input|A,B,D,X|
 |	     |Output|C,D,E|
 
-# Expected Reactions
+# Inferred Reactions
 |Reactor|Reaction|
 |:---|:---|
 |Reactor1| Reaction1|
