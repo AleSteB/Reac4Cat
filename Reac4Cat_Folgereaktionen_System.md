@@ -11,3 +11,8 @@
 |		 |Output|A,C|
 |Reactor2|Input|A,B,D,X|
 |	     |Output|C,D,E|
+
+# Expected Reactions
+
+|Reactor1| Reaction1|
+|Reactor2| Reaction1, Reaction2|
