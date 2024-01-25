@@ -16,55 +16,23 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:reac4cat="https://nfdi4cat.org/ontologies/reac4cat#">
-    <owl:Ontology rdf:about="https://nfdi4cat.org/ontologies/reac4cat">
-        <obo:IAO_0000116>Reused Ontologies: [AB]
+    <owl:Ontology rdf:about="https://nfdi4cat.org/ontologies/reac4cat_Onto_Metadata">
+        <obo:IAO_0000116>Reused Ontologies: [Alexander Behr]
 AFO
 BFO
 RXNO
-MOP</obo:IAO_0000116>
-        <dc:contributor>Alan Ruttenberg</dc:contributor>
-        <dc:contributor>Albert Goldfain</dc:contributor>
+MOP
+Chebi</obo:IAO_0000116>
         <dc:contributor>Alexander Behr</dc:contributor>
-        <dc:contributor>Barry Smith</dc:contributor>
-        <dc:contributor>Bill Duncan</dc:contributor>
-        <dc:contributor>Bjoern Peters</dc:contributor>
-        <dc:contributor>Chris Mungall</dc:contributor>
-        <dc:contributor>David Osumi-Sutherland</dc:contributor>
-        <dc:contributor>Fabian Neuhaus</dc:contributor>
         <dc:contributor>Hendrik Borgelt</dc:contributor>
-        <dc:contributor>Holger Stenzhorn</dc:contributor>
-        <dc:contributor>James A. Overton</dc:contributor>
-        <dc:contributor>Janna Hastings</dc:contributor>
-        <dc:contributor>Jie Zheng</dc:contributor>
-        <dc:contributor>Jonathan Bona</dc:contributor>
-        <dc:contributor>Larry Hunter</dc:contributor>
-        <dc:contributor>Leonard Jacuzzo</dc:contributor>
-        <dc:contributor>Ludger Jansen</dc:contributor>
-        <dc:contributor>Mark Ressler</dc:contributor>
-        <dc:contributor>Mathias Brochhausen</dc:contributor>
-        <dc:contributor>Mauricio Almeida</dc:contributor>
-        <dc:contributor>Melanie Courtot</dc:contributor>
-        <dc:contributor>Pierre Grenon</dc:contributor>
-        <dc:contributor>Randall Dipert</dc:contributor>
-        <dc:contributor>Ron Rudnicki</dc:contributor>
-        <dc:contributor>Selja Seppälä</dc:contributor>
-        <dc:contributor>Stefan Schulz</dc:contributor>
-        <dc:contributor>Thomas Bittner</dc:contributor>
-        <dc:contributor>Werner Ceusters</dc:contributor>
-        <dc:contributor>Yongqun &quot;Oliver&quot; He</dc:contributor>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <rdfs:comment xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
-        <rdfs:isDefinedBy rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/owl"/>
-        <rdfs:seeAlso rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/tools/"/>
-        <foaf:homepage rdf:resource="http://basic-formal-ontology.org/"/>
-        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
-        <foaf:homepage rdf:resource="https://github.com/BFO-ontology/BFO"/>
-        <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
+        <terms:hasPart rdf:resource="http://purl.allotrope.org/voc/afo/merged/REC/2023/09/merged-without-qudt-and-inferred.ttl"/>
+        <terms:hasPart rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <terms:hasPart rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <terms:hasPart rdf:resource="https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl"/>
+        <terms:hasPart rdf:resource="https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl"/>
+        <terms:license rdf:resource="https://creativecommons.org/public-domain/cc0/"/>
+        <rdfs:seeAlso rdf:resource="https://nfdi4cat.org/en/"/>
+        <foaf:homepage rdf:resource="https://github.com/AleSteB/Reac4Cat"/>
     </owl:Ontology>
     
 
@@ -98,7 +66,10 @@ MOP</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -108,9 +79,65 @@ MOP</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/relation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasPart -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasPart">
+        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of.</terms:description>
+        <rdfs:comment xml:lang="en">A related resource that is included either physically or logically in the described resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Has Part</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/references -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/references">
+        <terms:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By.</terms:description>
+        <rdfs:comment xml:lang="en">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">References</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/relation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
+        <terms:description xml:lang="en">Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided.</terms:description>
+        <rdfs:comment xml:lang="en">A related resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Relation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -127,5 +154,5 @@ MOP</obo:IAO_0000116>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 

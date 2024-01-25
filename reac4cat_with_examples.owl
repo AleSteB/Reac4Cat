@@ -24,19 +24,12 @@
     <Prefix name="reac4cat" IRI="https://nfdi4cat.org/ontologies/reac4cat#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
-        <Literal>Reused Ontologies: [AB]
+        <Literal>Reused Ontologies: [Alexander Behr]
 AFO
 BFO
 RXNO
-MOP</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Alan Ruttenberg</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Albert Goldfain</Literal>
+MOP
+Chebi</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
@@ -44,163 +37,39 @@ MOP</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Barry Smith</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Bill Duncan</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Bjoern Peters</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Chris Mungall</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>David Osumi-Sutherland</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Fabian Neuhaus</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
         <Literal>Hendrik Borgelt</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Holger Stenzhorn</Literal>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <IRI>http://purl.allotrope.org/voc/afo/merged/REC/2023/09/merged-without-qudt-and-inferred.ttl</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>James A. Overton</Literal>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <AbbreviatedIRI>obo:chebi.owl</AbbreviatedIRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Janna Hastings</Literal>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Jie Zheng</Literal>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <IRI>https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Jonathan Bona</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Larry Hunter</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Leonard Jacuzzo</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Ludger Jansen</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Mark Ressler</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Mathias Brochhausen</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Mauricio Almeida</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Melanie Courtot</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Pierre Grenon</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Randall Dipert</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Ron Rudnicki</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Selja Seppälä</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Stefan Schulz</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Thomas Bittner</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Werner Ceusters</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
-        <Literal>Yongqun &quot;Oliver&quot; He</Literal>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <IRI>https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:license"/>
-        <IRI>http://creativecommons.org/licenses/by/4.0/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/</IRI>
+        <IRI>https://creativecommons.org/public-domain/cc0/</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://groups.google.com/group/bfo-devel</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://groups.google.com/group/bfo-discuss</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://groups.google.com/group/bfo-owl-devel</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>http://purl.obolibrary.org/obo/bfo/dev/owl</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/BFO-ontology/BFO/tree/master/src/tools/</IRI>
+        <IRI>https://nfdi4cat.org/en/</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
-        <IRI>http://basic-formal-ontology.org/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
-        <IRI>http://ifomis.org/bfo</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
-        <IRI>https://github.com/BFO-ontology/BFO</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
-        <IRI>mailto:bfo-owl-devel@googlegroups.com</IRI>
+        <IRI>https://github.com/AleSteB/Reac4Cat</IRI>
     </Annotation>
     <Declaration>
         <Class IRI="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
@@ -233,22 +102,10 @@ MOP</Literal>
         <Class abbreviatedIRI="obo:BFO_0000003"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:BFO_0000004"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:BFO_0000008"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:BFO_0000015"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:BFO_0000016"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:BFO_0000017"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:BFO_0000020"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
@@ -257,7 +114,79 @@ MOP</Literal>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_15377"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_16134"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_16183"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_16526"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_17997"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_18248"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_18276"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_24431"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_28112"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_30682"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33250"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33352"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33356"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33362"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33365"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33521"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33579"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33693"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_49882"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_59999"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_60003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_60004"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:MOP_0000543"/>
@@ -275,25 +204,10 @@ MOP</Literal>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="reac4cat:Ammonia"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="reac4cat:HaberBosch"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="reac4cat:HaberBosch_2"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Iron"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="reac4cat:Methanation"/>
@@ -308,31 +222,10 @@ MOP</Literal>
         <Class abbreviatedIRI="reac4cat:Methanation_2"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="reac4cat:Methane"/>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Nickel"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Rhenium"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:Water"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
@@ -345,6 +238,18 @@ MOP</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/chebi#has_parent_hydride"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/chebi#is_substituent_group_from"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/rxno.obo#has_part"/>
@@ -368,10 +273,10 @@ MOP</Literal>
         <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="reac4cat:has_carrier_material"/>
@@ -386,9 +291,6 @@ MOP</Literal>
         <ObjectProperty abbreviatedIRI="reac4cat:is_catalyzed_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="reac4cat:used_as_carrier_material_by"/>
-    </Declaration>
-    <Declaration>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
     </Declaration>
     <Declaration>
@@ -398,49 +300,31 @@ MOP</Literal>
         <DataProperty abbreviatedIRI="reac4cat:measured_reaction_velocity"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:CarrierAl"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_4"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="reac4cat:Indv_HaberBosch"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_2"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual abbreviatedIRI="reac4cat:Indv_catalyst_role"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_in"/>
@@ -455,22 +339,28 @@ MOP</Literal>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_out"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_f6ff1e6e_3f7b_44a4_9d03_cf6c94c4ecae"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_5"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
@@ -611,6 +501,9 @@ MOP</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
     </Declaration>
     <Declaration>
@@ -621,6 +514,9 @@ MOP</Literal>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="om-2:alternativeLabel"/>
@@ -700,8 +596,104 @@ MOP</Literal>
         <Class abbreviatedIRI="obo:BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+        <Class abbreviatedIRI="obo:CHEBI_33579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_15377"/>
+        <Class abbreviatedIRI="obo:CHEBI_33693"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_16134"/>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_16183"/>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_16526"/>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_17997"/>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_18248"/>
+        <Class abbreviatedIRI="obo:CHEBI_33356"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_18276"/>
+        <Class abbreviatedIRI="obo:CHEBI_138675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+        <Class abbreviatedIRI="obo:CHEBI_24431"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:CHEBI_23367"/>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+        <Class abbreviatedIRI="obo:CHEBI_33521"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_28112"/>
+        <Class abbreviatedIRI="obo:CHEBI_33362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_30682"/>
+        <Class abbreviatedIRI="obo:CHEBI_33356"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_30682"/>
+        <Class abbreviatedIRI="obo:CHEBI_33365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33250"/>
+        <Class abbreviatedIRI="obo:CHEBI_24431"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33352"/>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33356"/>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33362"/>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33365"/>
+        <Class abbreviatedIRI="obo:CHEBI_27081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33521"/>
+        <Class abbreviatedIRI="obo:CHEBI_33250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33579"/>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_49882"/>
+        <Class abbreviatedIRI="obo:CHEBI_33352"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_59999"/>
+        <Class abbreviatedIRI="obo:CHEBI_24431"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_60003"/>
+        <Class abbreviatedIRI="obo:CHEBI_59999"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_60004"/>
+        <Class abbreviatedIRI="obo:CHEBI_59999"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:MOP_0000543"/>
@@ -724,32 +716,12 @@ MOP</Literal>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Ammonia"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="reac4cat:HaberBosch"/>
         <Class abbreviatedIRI="obo:MOP_0000589"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="reac4cat:HaberBosch_2"/>
         <Class abbreviatedIRI="reac4cat:HaberBosch"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Iron"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="reac4cat:Methanation"/>
@@ -768,44 +740,12 @@ MOP</Literal>
         <Class abbreviatedIRI="reac4cat:Methanation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Methane"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Nickel"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Rhenium"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
-        <Class abbreviatedIRI="obo:MOP_0000569"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
-        <Class abbreviatedIRI="obo:MOP_0000569"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:Water"/>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="reac4cat:molecule"/>
-        <Class abbreviatedIRI="obo:CHEBI_23367"/>
-    </SubClassOf>
-    <SubClassOf>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="reac4cat:Iron"/>
+            <Class abbreviatedIRI="obo:CHEBI_18248"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:isEductComponentOf"/>
                 <Class abbreviatedIRI="reac4cat:HaberBosch"/>
@@ -831,24 +771,24 @@ MOP</Literal>
             <ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                    <Class abbreviatedIRI="reac4cat:Iron"/>
+                    <Class abbreviatedIRI="obo:CHEBI_18248"/>
                 </ObjectSomeValuesFrom>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                    <Class abbreviatedIRI="reac4cat:Nickel"/>
+                    <Class abbreviatedIRI="obo:CHEBI_28112"/>
                 </ObjectSomeValuesFrom>
             </ObjectUnionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+                <Class abbreviatedIRI="obo:CHEBI_17997"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+                <Class abbreviatedIRI="obo:CHEBI_18276"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Ammonia"/>
+                <Class abbreviatedIRI="obo:CHEBI_16134"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="reac4cat:HaberBosch"/>
@@ -857,214 +797,173 @@ MOP</Literal>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+                <Class abbreviatedIRI="obo:CHEBI_16526"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+                <Class abbreviatedIRI="obo:CHEBI_18276"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Methane"/>
+                <Class abbreviatedIRI="obo:CHEBI_15377"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
-                <Class abbreviatedIRI="reac4cat:Water"/>
+                <Class abbreviatedIRI="obo:CHEBI_16183"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="reac4cat:Methanation"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class abbreviatedIRI="obo:BFO_0000008"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class abbreviatedIRI="obo:BFO_0000016"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
-    </DisjointClasses>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Iron"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+        <Class abbreviatedIRI="obo:CHEBI_18248"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Iron"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+        <Class abbreviatedIRI="obo:CHEBI_18248"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="reac4cat:HaberBosch"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Indv_HaberBosch"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_2"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Indv_catalyst_role"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+        <Class abbreviatedIRI="reac4cat:process_mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Mixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Methane"/>
+        <Class abbreviatedIRI="obo:CHEBI_16183"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+        <Class abbreviatedIRI="obo:CHEBI_16526"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Iron"/>
+        <Class abbreviatedIRI="obo:CHEBI_18248"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Fe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+        <Class abbreviatedIRI="obo:CHEBI_18276"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Water"/>
+        <Class abbreviatedIRI="obo:CHEBI_15377"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+        <Class abbreviatedIRI="obo:CHEBI_17997"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Ammonia"/>
+        <Class abbreviatedIRI="obo:CHEBI_16134"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Nickel"/>
+        <Class abbreviatedIRI="obo:CHEBI_28112"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Rhenium"/>
+        <Class abbreviatedIRI="obo:CHEBI_49882"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Rh"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
+        <Class abbreviatedIRI="obo:CHEBI_30682"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ru"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:used_as_carrier_material_by"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:CarrierAl"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_1"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Fe"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_4"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CatalystSample_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_4"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_4"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
@@ -1077,54 +976,74 @@ MOP</Literal>
         <NamedIndividual abbreviatedIRI="reac4cat:Sub_X"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_3"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_3"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_4"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_4"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_5"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_5"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
@@ -1132,7 +1051,7 @@ MOP</Literal>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_in"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_out"/>
     </ObjectPropertyAssertion>
@@ -1142,7 +1061,7 @@ MOP</Literal>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_in"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Reactor_2"/>
         <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_out"/>
     </ObjectPropertyAssertion>
@@ -1154,41 +1073,41 @@ MOP</Literal>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
         <NamedIndividual abbreviatedIRI="reac4cat:unknown_reaction_1"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:EductMixture_2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
         <NamedIndividual abbreviatedIRI="reac4cat:unknown_reaction_1"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:ProductComponentSet_2"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">450.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_4"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_4"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">375.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_5"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">249.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reaction_5"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">374.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
@@ -1235,18 +1154,24 @@ MOP</Literal>
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
     </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
-        <Class abbreviatedIRI="obo:BFO_0000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-        <Class abbreviatedIRI="obo:BFO_0000020"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
     </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+            <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        </ObjectPropertyChain>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponentMixture"/>
+            <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        </ObjectPropertyChain>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
@@ -1644,6 +1569,406 @@ MOP</Literal>
         <Literal xml:lang="en">role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_138675</AbbreviatedIRI>
+        <Literal>Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_138675</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_138675</AbbreviatedIRI>
+        <Literal>CHEBI:138675</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_138675</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_138675</AbbreviatedIRI>
+        <Literal>gas molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:10743</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:13352</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:27313</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:42043</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:42857</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:43228</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:44292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:44701</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:44819</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:5585</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>CHEBI:15377</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_15377</AbbreviatedIRI>
+        <Literal>water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:13405</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:13406</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:13407</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:13771</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:22533</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:44269</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:44284</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:44404</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:7434</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>CHEBI:16134</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_16134</AbbreviatedIRI>
+        <Literal>ammonia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>CHEBI:14585</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>CHEBI:25220</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>CHEBI:6811</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>CHEBI:16183</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_16183</AbbreviatedIRI>
+        <Literal>methane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:13282</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:13283</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:13284</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:13285</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:23011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:3283</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:48829</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>CHEBI:16526</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_16526</AbbreviatedIRI>
+        <Literal>carbon dioxide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>An elemental molecule consisting of two trivalently-bonded nitrogen atoms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:13388</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:14660</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:25365</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:43128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:7593</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>CHEBI:17997</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_17997</AbbreviatedIRI>
+        <Literal>dinitrogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>An iron group element atom that has atomic number 26.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>CHEBI:13322</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>CHEBI:24872</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>CHEBI:5974</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>CHEBI:18248</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_18248</AbbreviatedIRI>
+        <Literal>iron atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>An elemental molecule consisting of two hydrogens joined by a single bond.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>CHEBI:13350</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>CHEBI:25363</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>CHEBI:5785</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>CHEBI:18276</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_18276</AbbreviatedIRI>
+        <Literal>dihydrogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="property:AFX_0002796"/>
         <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
         <IRI>http://purl.allotrope.org/ontologies/result#AFR_0001222</IRI>
@@ -1652,6 +1977,11 @@ MOP</Literal>
         <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
         <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
         <AbbreviatedIRI>obo:chebi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:license"/>
@@ -1667,6 +1997,21 @@ MOP</Literal>
         <AnnotationProperty abbreviatedIRI="terms:source"/>
         <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
         <Literal>PAC, 1994, 66, 1077. (Glossary of terms used in physical organic chemistry (IUPAC Recommendations 1994)) on page 1142</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>CHEBI:23367</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -1687,6 +2032,411 @@ MOP</Literal>
         <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
         <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
         <Literal>molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_24431</AbbreviatedIRI>
+        <Literal>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_24431</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_24431</AbbreviatedIRI>
+        <Literal>CHEBI:24431</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_24431</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_24431</AbbreviatedIRI>
+        <Literal>chemical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_27081</AbbreviatedIRI>
+        <Literal>An element whose atom has an incomplete d sub-shell, or which can give rise to cations with an incomplete d sub-shell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_27081</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_27081</AbbreviatedIRI>
+        <Literal>CHEBI:27081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_27081</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_27081</AbbreviatedIRI>
+        <Literal>transition element atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>Chemical element (nickel group element atom) with atomic number 28.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>CHEBI:25515</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>CHEBI:7552</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>CHEBI:28112</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_28112</AbbreviatedIRI>
+        <Literal>nickel atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_30682</AbbreviatedIRI>
+        <Literal>An iron group element atom that has formula Ru.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_30682</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_30682</AbbreviatedIRI>
+        <Literal>CHEBI:30682</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_30682</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_30682</AbbreviatedIRI>
+        <Literal>ruthenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>A chemical entity constituting the smallest component of an element having the chemical properties of the element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>CHEBI:22671</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>CHEBI:23907</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>CHEBI:33250</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33250</AbbreviatedIRI>
+        <Literal>atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33352</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33352</AbbreviatedIRI>
+        <Literal>CHEBI:33352</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33352</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33352</AbbreviatedIRI>
+        <Literal>manganese group element atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33356</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33356</AbbreviatedIRI>
+        <Literal>CHEBI:33356</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33356</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33356</AbbreviatedIRI>
+        <Literal>iron group element atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33362</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33362</AbbreviatedIRI>
+        <Literal>CHEBI:33362</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33362</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33362</AbbreviatedIRI>
+        <Literal>nickel group element atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33365</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33365</AbbreviatedIRI>
+        <Literal>CHEBI:33365</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33365</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33365</AbbreviatedIRI>
+        <Literal>platinum group metal atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>CHEBI:25217</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>CHEBI:6788</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>CHEBI:33521</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33521</AbbreviatedIRI>
+        <Literal>metal atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_33579</AbbreviatedIRI>
+        <Literal>A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_33579</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_33579</AbbreviatedIRI>
+        <Literal>CHEBI:33579</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_33579</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33579</AbbreviatedIRI>
+        <Literal>main group molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>A manganese group element atom that has formula Re.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>CHEBI:33354</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasAlternativeId"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>CHEBI:49879</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>CHEBI:49882</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_49882</AbbreviatedIRI>
+        <Literal>rhenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_59999</AbbreviatedIRI>
+        <Literal>A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_59999</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_59999</AbbreviatedIRI>
+        <Literal>CHEBI:59999</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_59999</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_59999</AbbreviatedIRI>
+        <Literal>chemical substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_60003</AbbreviatedIRI>
+        <Literal>A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_60003</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_60003</AbbreviatedIRI>
+        <Literal>CHEBI:60003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_60003</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_60003</AbbreviatedIRI>
+        <Literal>pure substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_60004</AbbreviatedIRI>
+        <Literal>A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_60004</AbbreviatedIRI>
+        <Literal>chebi_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_60004</AbbreviatedIRI>
+        <Literal>CHEBI:60004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:CHEBI_60004</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/chebi#3_STAR</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_60004</AbbreviatedIRI>
+        <Literal>mixture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">editor note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -2085,34 +2835,69 @@ MOP</Literal>
         <Literal xml:lang="en">Source</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/chebi.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/CHEBI_17997</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:definition"/>
-        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
-        <Literal>An elemental molecule consisting of two trivalently-bonded nitrogen atoms. [CHEBI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
-        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
-        <Literal>dinitrogen (molecule)</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:EductMixture_1</AbbreviatedIRI>
+        <Literal xml:lang="en">This mixture is an example mixture and models here an Educt Mixture as would be used for a Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>reac4cat:Iron</AbbreviatedIRI>
-        <Literal>HaberBosch and (hasEductComponent some Iron) SubClassOf &apos;has role&apos; some &apos;catalyst role&apos;</Literal>
+        <AbbreviatedIRI>reac4cat:EductMixture_2</AbbreviatedIRI>
+        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture as would be used for a Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>reac4cat:OWLNamedIndividual_f6ff1e6e_3f7b_44a4_9d03_cf6c94c4ecae</AbbreviatedIRI>
-        <Literal xml:lang="de">Reactor_3</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:EductMixture_3</AbbreviatedIRI>
+        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture as would be used for a Methanation reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:EductMixture_4</AbbreviatedIRI>
+        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture with a catalytic compound in it, as would be used for a Methanation reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:ProductComponentSet_1</AbbreviatedIRI>
+        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:ProductComponentSet_2</AbbreviatedIRI>
+        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:ProductComponentSet_3</AbbreviatedIRI>
+        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Methanation reaction as Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_1</AbbreviatedIRI>
+        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_2</AbbreviatedIRI>
+        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_2</AbbreviatedIRI>
+        <Literal xml:lang="en">a second reaction was modeled here as Protege sometimes had problems inferring this individual to be a Haber Bosch reaction, when the hasEductComponent &amp; hasProductComponent were not explicitly defined as a subproperty of owl:topObjectProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_3</AbbreviatedIRI>
+        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_4</AbbreviatedIRI>
+        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Reaction_5</AbbreviatedIRI>
+        <Literal>This is an example individual which shall inferr to be a Methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
@@ -2123,21 +2908,6 @@ MOP</Literal>
         <AnnotationProperty abbreviatedIRI="skos:note"/>
         <AbbreviatedIRI>reac4cat:Reactor_1</AbbreviatedIRI>
         <Literal>Michi hat die Reaktion nach Vorbild von Publikation DOI:ueahfo8jfai erstellt</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/CHEBI_25367</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:definition"/>
-        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
-        <Literal>A molecule is a polyatomic molecular entity that is an electrically neutral entity consisting of more than one atom. [Allotrope]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
-        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
-        <Literal>molecule</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
@@ -2199,5 +2969,5 @@ MOP</Literal>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
