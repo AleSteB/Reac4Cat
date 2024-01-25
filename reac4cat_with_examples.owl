@@ -1,0 +1,2203 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://nfdi4cat.org/ontologies/reac4cat_with_examples"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://nfdi4cat.org/ontologies/reac4cat_with_examples">
+    <Prefix name="" IRI="http://www.semanticweb.org/smhhborg/ontologies/2024/0/untitled-ontology-8/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="dcam" IRI="http://purl.org/dc/dcam/"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="om-2" IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="property" IRI="http://purl.allotrope.org/ontologies/property#"/>
+    <Prefix name="reac4cat" IRI="https://nfdi4cat.org/ontologies/reac4cat#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <Literal>Reused Ontologies: [AB]
+AFO
+BFO
+RXNO
+MOP</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Alan Ruttenberg</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Albert Goldfain</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Alexander Behr</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Barry Smith</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Bill Duncan</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Bjoern Peters</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Chris Mungall</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>David Osumi-Sutherland</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Fabian Neuhaus</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Hendrik Borgelt</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Holger Stenzhorn</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>James A. Overton</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Janna Hastings</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Jie Zheng</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Jonathan Bona</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Larry Hunter</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Leonard Jacuzzo</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Ludger Jansen</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Mark Ressler</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Mathias Brochhausen</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Mauricio Almeida</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Melanie Courtot</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Pierre Grenon</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Randall Dipert</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Ron Rudnicki</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Selja Seppälä</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Stefan Schulz</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Thomas Bittner</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Werner Ceusters</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Yongqun &quot;Oliver&quot; He</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <IRI>http://creativecommons.org/licenses/by/4.0/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-devel</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-discuss</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-owl-devel</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/dev/owl</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>https://github.com/BFO-ontology/BFO/tree/master/src/tools/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>http://basic-formal-ontology.org/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>http://ifomis.org/bfo</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>https://github.com/BFO-ontology/BFO</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+        <IRI>mailto:bfo-owl-devel@googlegroups.com</IRI>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000344"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000361"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000421"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:MOP_0000543"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:MOP_0000569"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:MOP_0000589"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Ammonia"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:HaberBosch_2"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Iron"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Methanation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:MethanationCatalysed_1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Methanation_1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Methanation_2"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Methane"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Nickel"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Rhenium"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:Water"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/rxno.obo#has_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:ReactionRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:catalyzes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasCatalyst"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:has_carrier_material"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:isEductComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:isPromotingMaterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:is_catalyzed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="reac4cat:used_as_carrier_material_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="reac4cat:measured_reaction_velocity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:CarrierAl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_catalyst_role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_f6ff1e6e_3f7b_44a4_9d03_cf6c94c4ecae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Fe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Rh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="reac4cat:unknown_reaction_1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002796"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002798"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002809"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002818"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcam:rangeIncludes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:abstract"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:references"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="om-2:alternativeLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+        <ObjectHasSelf>
+            <ObjectProperty abbreviatedIRI="reac4cat:ReactionRole"/>
+        </ObjectHasSelf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000229"/>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000231"/>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000249"/>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000344"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000344"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000360"/>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000344"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000361"/>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000360"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000421"/>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+        <Class abbreviatedIRI="obo:BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+        <Class abbreviatedIRI="obo:BFO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:MOP_0000543"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:MOP_0000569"/>
+        <Class abbreviatedIRI="obo:MOP_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:MOP_0000589"/>
+        <Class abbreviatedIRI="obo:MOP_0000569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0000086"/>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000249"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Ammonia"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+        <Class abbreviatedIRI="obo:MOP_0000589"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:HaberBosch_2"/>
+        <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Iron"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Methanation"/>
+        <Class abbreviatedIRI="obo:MOP_0000589"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:MethanationCatalysed_1"/>
+        <Class abbreviatedIRI="reac4cat:Methanation_1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Methanation_1"/>
+        <Class abbreviatedIRI="reac4cat:Methanation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Methanation_2"/>
+        <Class abbreviatedIRI="reac4cat:Methanation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Methane"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Nickel"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Rhenium"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
+        <Class abbreviatedIRI="obo:MOP_0000569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
+        <Class abbreviatedIRI="obo:MOP_0000569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:Water"/>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="reac4cat:molecule"/>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="reac4cat:Iron"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:isEductComponentOf"/>
+                <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+                <ObjectOneOf>
+                    <NamedIndividual abbreviatedIRI="reac4cat:Indv_catalyst_role"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:catalyzes"/>
+                <ObjectOneOf>
+                    <NamedIndividual abbreviatedIRI="reac4cat:Indv_HaberBosch"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                    <Class abbreviatedIRI="reac4cat:Iron"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                    <Class abbreviatedIRI="reac4cat:Nickel"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Ammonia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Methane"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+                <Class abbreviatedIRI="reac4cat:Water"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="reac4cat:Methanation"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="obo:BFO_0000008"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Iron"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Iron"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_HaberBosch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:TestReaction1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:TestReaction2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_TestReac_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Indv_catalyst_role"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Mixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Methane"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Carbondioxid"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Iron"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Fe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Hydrogen"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Water"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Dinitrogen"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Ammonia"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Nickel"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Rhenium"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Rh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="reac4cat:Ruthenium"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ru"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:used_as_carrier_material_by"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:CarrierAl"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_NH4_reac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_2_NH4_Reac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Fe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_N2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_Ni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Cat_1_MeOH_reac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_NH4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_H2O"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_in"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_in"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_1_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_Methanation_w_Cat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_Methanation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_in"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac1_out"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_in"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_2"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mixture_reac2_out"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:has_carrier_material"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_X"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Sub_CH3OH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasInitialMixture"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:unknown_reaction_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Educt_HaberBosch1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProduct"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:unknown_reaction_1"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Mix_Product_HaberBosch1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_HaberBosch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">450.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_2_Methanation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">375.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionPressure"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">249.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:hasMeanReactionTemperature"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reac_3_Methanation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">374.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="reac4cat:measured_reaction_velocity"/>
+        <NamedIndividual abbreviatedIRI="reac4cat:Reactor_1"/>
+        <Literal>0.51644844 [mol/s]</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="reac4cat:catalyzes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasProductComponent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="reac4cat:isEductComponentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000081"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasEductComponent"/>
+        <ObjectProperty abbreviatedIRI="reac4cat:isEductComponentOf"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="reac4cat:hasComponent"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+        <Class abbreviatedIRI="obo:BFO_0000004"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+        <Class abbreviatedIRI="obo:BFO_0000020"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
+        <Literal>A chemical reaction is a process that results in the interconversion of chemical species. [IUPAC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
+        <Literal>http://purl.allotrope.org/ontologies/process#AFP_0003711</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="om-2:alternativeLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
+        <Literal>chemical reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="om-2:alternativeLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
+        <Literal>reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.allotrope.org/ontologies/process#AFP_0003711</IRI>
+        <Literal>chemical reaction (molecular)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002798"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002809"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <AbbreviatedIRI>obo:CHEBI_35223</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <IRI>http://purl.allotrope.org/voc/iupac-license</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <IRI>http://purl.allotrope.org/voc/iupac-copyright</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <Literal>PAC, 1996, 68, 155 (Glossary of terms used in chemical kinetics, including reaction dynamics.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <Literal>catalyst</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <Literal>A catalyst role is a reagent role of a substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction; the process is called catalysis. The catalyst is both a reactant and product of the reaction. [IUPAC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000217</IRI>
+        <Literal>catalyst role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>intermedate reagent role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>intermediate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>intermediate reagent role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>intermediate role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>reaction intermediate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>Intermediate role is a role of material that is formed from reactants (or preceding intermediates) and reacts further to give the directly observed products of a chemical reaction. [Wikipedia]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000229</IRI>
+        <Literal>reaction intermediate role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000231</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000231</IRI>
+        <Literal>reactant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000231</IRI>
+        <Literal>starting material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000231</IRI>
+        <Literal>Reactant role is a role of a chemical entity that is present at the start of a reaction. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000231</IRI>
+        <Literal>reactant role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000249</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000249</IRI>
+        <Literal>ingredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000249</IRI>
+        <Literal>Ingredient is a role of material that is used in a material combining process to produce a new material. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000249</IRI>
+        <Literal>ingredient role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000344</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000344</IRI>
+        <Literal>A synthesis role is a role of a material that is participating in a synthesis (material conversion) process. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000344</IRI>
+        <Literal>synthesis role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000360</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000360</IRI>
+        <Literal>chemical product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000360</IRI>
+        <Literal>product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000360</IRI>
+        <Literal>A role of a material that is intended and desired to be  produced in a synthesis. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000360</IRI>
+        <Literal>product role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <Literal>batch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <Literal>lot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <Literal>lot role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <Literal>Batch role is a product role of a portion of material that is intended to have uniform character and quality, within specified limits, and is produced according to a single manufacturing order during the same cycle of manufacture. [Allotrope, CFR21]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000361</IRI>
+        <Literal>batch role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000421</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000421</IRI>
+        <Literal>A reagent role of the material with the least mole quantity in a chemical process and as such limits the amount of product that can be formed. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.allotrope.org/ontologies/role#AFRL_0000421</IRI>
+        <Literal>limiting reagent role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal>process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal>Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">a process of cell-division, \ a beating of the heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">a process of meiosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">a process of sleeping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">the course of a disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">the flight of a bird</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">the life of an organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">your process of aging.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/083-003</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/083-003</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal>(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:bfo.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000015</AbbreviatedIRI>
+        <Literal xml:lang="en">process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal>role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal>Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the priest role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the role of a boundary to demarcate two neighboring administrative territories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the role of a building in serving as a military target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the role of a stone in marking a property boundary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the role of subject in a clinical trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">the student role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role &amp; c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/061-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">b is a role means: b is a realizable entity &amp; b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be&amp; b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/061-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal>(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:bfo.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002796"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/ontologies/result#AFR_0001222</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:chebi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/iupac-license</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/iupac-copyright</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>PAC, 1994, 66, 1077. (Glossary of terms used in physical organic chemistry (IUPAC Recommendations 1994)) on page 1142</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/molecular-scale</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity. [IUPAC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal>molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>https://orcid.org/0000-0001-5985-7429</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:MOP_0000543</AbbreviatedIRI>
+        <Literal>A process in which at least one of the participants is a molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:MOP_0000543</AbbreviatedIRI>
+        <Literal>RXNO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:MOP_0000543</AbbreviatedIRI>
+        <Literal>MOP:0000543</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:MOP_0000543</AbbreviatedIRI>
+        <Literal>TODO: needs work, formal definition, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:MOP_0000543</AbbreviatedIRI>
+        <Literal>molecular process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>AU:R05222</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>The complete transfer of one or more electrons to a molecular entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>https://doi.org/10.1351/goldbook.R05222</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>The complete transfer of one or more electrons to a molecular entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>batchelorc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>2009-06-01T06:04:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>electronation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>RXNO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>MOP:0000569</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:MOP_0000569</AbbreviatedIRI>
+        <Literal>reduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>https://orcid.org/0000-0001-5985-7429</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>A reduction process that involves addition of hydrogen atoms across a double bond.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>batchelorc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>2009-06-05T04:53:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>RXNO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>MOP:0000589</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:MOP_0000589</AbbreviatedIRI>
+        <Literal>hydrogenation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002809"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:CHEBI_33893</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <Literal>reagent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <Literal>A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer. [OBI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>obo:OBI_0000086</AbbreviatedIRI>
+        <Literal>reagent role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/relation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>is bearer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist. [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>this apple is bearer of this red color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>this vase is bearer of this fragility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>obo:RO_0000053</AbbreviatedIRI>
+        <Literal>bearer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:RO_0000087</AbbreviatedIRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/relation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>obo:RO_0000087</AbbreviatedIRI>
+        <Literal>A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
+        <AbbreviatedIRI>obo:RO_0000087</AbbreviatedIRI>
+        <Literal>A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.  [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <AbbreviatedIRI>obo:RO_0000087</AbbreviatedIRI>
+        <Literal>this person has role this investigator role (more colloquially: this person has this role of investigator) [RO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>obo:RO_0000087</AbbreviatedIRI>
+        <Literal>has role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002818"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <IRI>http://purl.allotrope.org/taxonomy</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="property:AFX_0002865"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2018/07/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/REC/2021/09/aft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/portion-of-material</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <IRI>http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/system</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <Literal>http://purl.allotrope.org/ontologies/material#AFM_0000275</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <Literal>matter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <Literal>A material entity that occupies space and possesses a rest mass. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo.owl#material</IRI>
+        <Literal>material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:abstract</AbbreviatedIRI>
+        <Literal xml:lang="en">A summary of the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:abstract</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:abstract</AbbreviatedIRI>
+        <Literal xml:lang="en">Abstract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+        <Literal xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+        <Literal xml:lang="en">An account of the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+        <Literal xml:lang="en">Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:hasPart</AbbreviatedIRI>
+        <Literal xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:hasPart</AbbreviatedIRI>
+        <Literal xml:lang="en">A related resource that is included either physically or logically in the described resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:hasPart</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:hasPart</AbbreviatedIRI>
+        <Literal xml:lang="en">Has Part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcam:rangeIncludes"/>
+        <AbbreviatedIRI>terms:license</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:LicenseDocument</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:license</AbbreviatedIRI>
+        <Literal xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:license</AbbreviatedIRI>
+        <Literal xml:lang="en">A legal document giving official permission to do something with the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:license</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:license</AbbreviatedIRI>
+        <Literal xml:lang="en">License</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:references</AbbreviatedIRI>
+        <Literal xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:references</AbbreviatedIRI>
+        <Literal xml:lang="en">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:references</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:references</AbbreviatedIRI>
+        <Literal xml:lang="en">References</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:relation</AbbreviatedIRI>
+        <Literal xml:lang="en">Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:relation</AbbreviatedIRI>
+        <Literal xml:lang="en">A related resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:relation</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:relation</AbbreviatedIRI>
+        <Literal xml:lang="en">Relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <Literal xml:lang="en">This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <Literal xml:lang="en">A related resource from which the described resource is derived.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <AbbreviatedIRI>terms:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <Literal xml:lang="en">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/chebi.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/CHEBI_17997</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
+        <Literal>An elemental molecule consisting of two trivalently-bonded nitrogen atoms. [CHEBI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>reac4cat:Dinitrogen</AbbreviatedIRI>
+        <Literal>dinitrogen (molecule)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>reac4cat:Iron</AbbreviatedIRI>
+        <Literal>HaberBosch and (hasEductComponent some Iron) SubClassOf &apos;has role&apos; some &apos;catalyst role&apos;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>reac4cat:OWLNamedIndividual_f6ff1e6e_3f7b_44a4_9d03_cf6c94c4ecae</AbbreviatedIRI>
+        <Literal xml:lang="de">Reactor_3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>reac4cat:Reactor_1</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.example.com/michis_krasses_kuchenrezept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+        <AbbreviatedIRI>reac4cat:Reactor_1</AbbreviatedIRI>
+        <Literal>Michi hat die Reaktion nach Vorbild von Publikation DOI:ueahfo8jfai erstellt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/CHEBI_25367</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
+        <Literal>A molecule is a polyatomic molecular entity that is an electrically neutral entity consisting of more than one atom. [Allotrope]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+        <AbbreviatedIRI>reac4cat:molecule</AbbreviatedIRI>
+        <Literal>molecule</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:abstract"/>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:abstract"/>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:hasPart"/>
+        <AnnotationProperty abbreviatedIRI="terms:relation"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:references"/>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:references"/>
+        <AnnotationProperty abbreviatedIRI="terms:relation"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:relation"/>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <AnnotationProperty abbreviatedIRI="terms:relation"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
