@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bfo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bfo.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mop="http://purl.obolibrary.org/obo/mop#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:property="http://purl.allotrope.org/ontologies/property#"
+     xmlns:reac4cat="https://nfdi4cat.org/ontologies/reac4cat#">
+    <owl:Ontology rdf:about="https://nfdi4cat.org/ontologies/reac4cat">
+        <obo:IAO_0000116>Reused Ontologies: [AB]
+AFO
+BFO
+RXNO
+MOP</obo:IAO_0000116>
+        <dc:contributor>Alan Ruttenberg</dc:contributor>
+        <dc:contributor>Albert Goldfain</dc:contributor>
+        <dc:contributor>Alexander Behr</dc:contributor>
+        <dc:contributor>Barry Smith</dc:contributor>
+        <dc:contributor>Bill Duncan</dc:contributor>
+        <dc:contributor>Bjoern Peters</dc:contributor>
+        <dc:contributor>Chris Mungall</dc:contributor>
+        <dc:contributor>David Osumi-Sutherland</dc:contributor>
+        <dc:contributor>Fabian Neuhaus</dc:contributor>
+        <dc:contributor>Hendrik Borgelt</dc:contributor>
+        <dc:contributor>Holger Stenzhorn</dc:contributor>
+        <dc:contributor>James A. Overton</dc:contributor>
+        <dc:contributor>Janna Hastings</dc:contributor>
+        <dc:contributor>Jie Zheng</dc:contributor>
+        <dc:contributor>Jonathan Bona</dc:contributor>
+        <dc:contributor>Larry Hunter</dc:contributor>
+        <dc:contributor>Leonard Jacuzzo</dc:contributor>
+        <dc:contributor>Ludger Jansen</dc:contributor>
+        <dc:contributor>Mark Ressler</dc:contributor>
+        <dc:contributor>Mathias Brochhausen</dc:contributor>
+        <dc:contributor>Mauricio Almeida</dc:contributor>
+        <dc:contributor>Melanie Courtot</dc:contributor>
+        <dc:contributor>Pierre Grenon</dc:contributor>
+        <dc:contributor>Randall Dipert</dc:contributor>
+        <dc:contributor>Ron Rudnicki</dc:contributor>
+        <dc:contributor>Selja Seppälä</dc:contributor>
+        <dc:contributor>Stefan Schulz</dc:contributor>
+        <dc:contributor>Thomas Bittner</dc:contributor>
+        <dc:contributor>Werner Ceusters</dc:contributor>
+        <dc:contributor>Yongqun &quot;Oliver&quot; He</dc:contributor>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <rdfs:comment xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
+        <rdfs:isDefinedBy rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/owl"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/BFO-ontology/BFO/tree/master/src/tools/"/>
+        <foaf:homepage rdf:resource="http://basic-formal-ontology.org/"/>
+        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
+        <foaf:homepage rdf:resource="https://github.com/BFO-ontology/BFO"/>
+        <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
