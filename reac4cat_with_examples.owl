@@ -3700,7 +3700,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000030</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3710,7 +3710,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000031</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3720,7 +3720,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000032</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Methanation reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a methanation reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3730,7 +3730,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000033</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3740,7 +3740,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000034</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3750,7 +3750,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000035</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3760,7 +3760,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000036</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3770,7 +3770,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000037</IRI>
-        <Literal>This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal>This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
