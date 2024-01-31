@@ -1,6 +1,0 @@
-Just model the reac onto as is.
-Columns -> Classes
-include annotation for individuals rows not covered by classes
-
-include Catalyst-based classes!
- 
