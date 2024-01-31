@@ -426,7 +426,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="property:AFX_0002796"/>
@@ -1143,7 +1143,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://nfdi4cat.org/ontologies/reac4cat_000049"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000004"/>
@@ -1258,7 +1258,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000056"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000006"/>
@@ -1322,12 +1322,12 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000048"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000055"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000052"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000019"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
@@ -3630,12 +3630,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000016</IRI>
-        <Literal xml:lang="de">CatalysedHaberBoschReaction</Literal>
+        <Literal>CatalysedHaberBoschReaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000017</IRI>
-        <Literal xml:lang="de">CatalysedMethanation</Literal>
+        <Literal>CatalysedMethanation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3840,7 +3840,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000048</IRI>
-        <Literal xml:lang="de">hasReactionVesselMaterial</Literal>
+        <Literal xml:lang="en">hasReactionVesselMaterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3850,101 +3850,101 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000050</IRI>
-        <Literal xml:lang="de">CatalystSample</Literal>
+        <Literal>CatalystSample</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000051</IRI>
-        <Literal xml:lang="de">VesselMaterial</Literal>
+        <Literal>VesselMaterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000052</IRI>
-        <Literal xml:lang="de">hasCatalystSample</Literal>
+        <Literal xml:lang="en">hasCatalystSample</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000053</IRI>
-        <Literal xml:lang="de">hasCatalystSampleComponent</Literal>
+        <Literal>hasCatalystSampleComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000054</IRI>
-        <Literal xml:lang="de">hasReactorVesselComponent</Literal>
+        <Literal>hasReactorVesselComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000055</IRI>
-        <Literal xml:lang="de">ReactorMaterial_1</Literal>
+        <Literal>ReactorMaterial_1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000056</IRI>
-        <Literal xml:lang="de">hasReactionVessel</Literal>
+        <Literal xml:lang="en">hasReactionVessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000058</IRI>
-        <Literal xml:lang="de">isCatalystOf</Literal>
+        <Literal xml:lang="en">isCatalystOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000059</IRI>
-        <Literal xml:lang="de">ReactionAssay</Literal>
+        <Literal>ReactionAssay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000060</IRI>
-        <Literal xml:lang="de">isReactionRoleOf</Literal>
+        <Literal xml:lang="en">isReactionRoleOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000062</IRI>
-        <Literal xml:lang="de">hasReactionComponent</Literal>
+        <Literal>hasReactionComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000063</IRI>
-        <Literal xml:lang="de">isReactionComponentOf</Literal>
+        <Literal>isReactionComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000064</IRI>
-        <Literal xml:lang="de">isCatalystSampleComponentOf</Literal>
+        <Literal>isCatalystSampleComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000065</IRI>
-        <Literal xml:lang="de">isProductComponentOf</Literal>
+        <Literal>isProductComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000067</IRI>
-        <Literal xml:lang="de">isPotentiallyCatalysedBy</Literal>
+        <Literal>isPotentiallyCatalysedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000069</IRI>
-        <Literal xml:lang="de">isReactionVesselComponentOf</Literal>
+        <Literal>isReactionVesselComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000072</IRI>
-        <Literal xml:lang="de">HaberBoschReacRole_Ind</Literal>
+        <Literal>HaberBoschReacRole_Ind</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000073</IRI>
-        <Literal xml:lang="de">MethanationReacRole_Ind</Literal>
+        <Literal>MethanationReacRole_Ind</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000074</IRI>
-        <Literal xml:lang="de">reaction role</Literal>
+        <Literal>reaction role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6</AbbreviatedIRI>
+        <IRI>https://nfdi4cat.org/ontologies/reac4cat_000076</IRI>
         <Literal>Reactor_1</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
