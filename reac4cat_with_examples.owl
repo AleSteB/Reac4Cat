@@ -3625,7 +3625,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000015</IRI>
-        <Literal xml:lang="en">should be a subclass of has role http://purl.obolibrary.org/obo/RO_0000087 (or more Speciffically even &apos;has chemical role&apos; http://purl.obolibrary.org/obo/RO_0002262) , however, due to the inverse relation &apos;characteristic of&apos; http://purl.obolibrary.org/obo/RO_0000052 beeing functional the intended reasoning between individuals which point via the &apos;has role&apos; relation to a role bearing Individual always leads to an unwanted inference in which all Individuals are set equivalent to each other. [AB]</Literal>
+        <Literal xml:lang="en">This object property should be a subclass of &apos;has role&apos; http://purl.obolibrary.org/obo/RO_0000087 (or &apos;has chemical role&apos; http://purl.obolibrary.org/obo/RO_0002262).
+However, due to the inverse relation &apos;characteristic of&apos; http://purl.obolibrary.org/obo/RO_0000052 being a functional relation, the intended reasoning leads to an unwanted inference between individuals. 
+This unwanted inference, in which all Individuals with the property &apos;has role&apos; are set equivalent to each other, is based on the &apos;has role&apos; relation pointing to a role bearing individual. [AB]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
