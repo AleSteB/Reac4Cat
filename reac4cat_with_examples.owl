@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://nfdi4cat.org/ontologies/reac4cat_with_examples">
-    <Prefix name="" IRI="http://www.semanticweb.org/smhhborg/ontologies/2024/0/untitled-ontology-8/"/>
+    <Prefix name="" IRI="https://nfdi4cat.org/ontologies/reac4cat_with_examples"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -426,7 +426,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="property:AFX_0002796"/>
@@ -1143,7 +1143,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://nfdi4cat.org/ontologies/reac4cat_000049"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000004"/>
@@ -1258,7 +1258,7 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000056"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000006"/>
@@ -1322,12 +1322,12 @@ Artifacts from other OBO ontologies might occur due to cross importing from some
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000048"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000055"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://nfdi4cat.org/ontologies/reac4cat_000052"/>
-        <NamedIndividual abbreviatedIRI="reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6"/>
+        <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
         <NamedIndividual IRI="https://nfdi4cat.org/ontologies/reac4cat_000019"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
@@ -3560,7 +3560,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000001</IRI>
-        <Literal>ProcessMixture</Literal>
+        <Literal>process mixture</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3625,17 +3625,19 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000015</IRI>
-        <Literal xml:lang="en">should be a subclass of has role http://purl.obolibrary.org/obo/RO_0000087 (or more Speciffically even &apos;has chemical role&apos; http://purl.obolibrary.org/obo/RO_0002262) , however, due to the inverse relation &apos;characteristic of&apos; http://purl.obolibrary.org/obo/RO_0000052 beeing functional the intended reasoning between individuals which point via the &apos;has role&apos; relation to a role bearing Individual always leads to an unwanted inference in which all Individuals are set equivalent to each other. [AB]</Literal>
+        <Literal xml:lang="en">This object property should be a subclass of &apos;has role&apos; http://purl.obolibrary.org/obo/RO_0000087 (or &apos;has chemical role&apos; http://purl.obolibrary.org/obo/RO_0002262).
+However, due to the inverse relation &apos;characteristic of&apos; http://purl.obolibrary.org/obo/RO_0000052 being a functional relation, the intended reasoning leads to an unwanted inference between individuals. 
+This unwanted inference, in which all Individuals with the property &apos;has role&apos; are set equivalent to each other, is based on the &apos;has role&apos; relation pointing to a role bearing individual. [AB]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000016</IRI>
-        <Literal xml:lang="de">CatalysedHaberBoschReaction</Literal>
+        <Literal>catalysed Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000017</IRI>
-        <Literal xml:lang="de">CatalysedMethanation</Literal>
+        <Literal>catalysed methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3650,7 +3652,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000021</IRI>
-        <Literal xml:lang="en">This mixture is an example mixture and models here an Educt Mixture as would be used for a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3660,7 +3662,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000022</IRI>
-        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture as would be used for a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3670,7 +3672,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000023</IRI>
-        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture as would be used for a Methanation reaction</Literal>
+        <Literal xml:lang="en">This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3680,7 +3682,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000024</IRI>
-        <Literal xml:lang="en">This Mixture is an example mixture and models here an Educt Mixture with a catalytic compound in it, as would be used for a Methanation reaction</Literal>
+        <Literal xml:lang="en">This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3690,17 +3692,17 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000025</IRI>
-        <Literal>HaberBoschReaction</Literal>
+        <Literal>Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000029</IRI>
-        <Literal>Methanation</Literal>
+        <Literal>methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000030</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3710,7 +3712,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000031</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Haber Bosch reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3720,7 +3722,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000032</IRI>
-        <Literal xml:lang="en">This set of Components, which serve as an example for a set of Components which would occur after a Methanation reaction as Products</Literal>
+        <Literal xml:lang="en">This set of components, which serve as an example for a set of components which would occur after a methanation reaction as products</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3730,7 +3732,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000033</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3740,7 +3742,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000034</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Haber Bosch reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3750,7 +3752,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000035</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3760,7 +3762,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000036</IRI>
-        <Literal xml:lang="en">This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal xml:lang="en">This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3770,7 +3772,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000037</IRI>
-        <Literal>This is an example individual which shall inferr to be a Methanation reaction</Literal>
+        <Literal>This is an example individual which will be inferred as methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3840,112 +3842,122 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000048</IRI>
-        <Literal xml:lang="de">hasReactionVesselMaterial</Literal>
+        <Literal xml:lang="en">hasReactionVesselMaterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000049</IRI>
-        <Literal xml:lang="de">ReactionVessel</Literal>
+        <Literal xml:lang="en">reaction vessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000050</IRI>
-        <Literal xml:lang="de">CatalystSample</Literal>
+        <Literal>catalyst sample</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000051</IRI>
-        <Literal xml:lang="de">VesselMaterial</Literal>
+        <Literal>vessel material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000052</IRI>
-        <Literal xml:lang="de">hasCatalystSample</Literal>
+        <Literal xml:lang="en">hasCatalystSample</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000053</IRI>
-        <Literal xml:lang="de">hasCatalystSampleComponent</Literal>
+        <Literal>hasCatalystSampleComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000054</IRI>
-        <Literal xml:lang="de">hasReactorVesselComponent</Literal>
+        <Literal>hasReactorVesselComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000055</IRI>
-        <Literal xml:lang="de">ReactorMaterial_1</Literal>
+        <Literal>ReactorMaterial_1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000056</IRI>
-        <Literal xml:lang="de">hasReactionVessel</Literal>
+        <Literal xml:lang="en">hasReactionVessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000058</IRI>
-        <Literal xml:lang="de">isCatalystOf</Literal>
+        <Literal xml:lang="en">isCatalystOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000059</IRI>
-        <Literal xml:lang="de">ReactionAssay</Literal>
+        <Literal>reaction assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000060</IRI>
-        <Literal xml:lang="de">isReactionRoleOf</Literal>
+        <Literal xml:lang="en">isReactionRoleOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000062</IRI>
-        <Literal xml:lang="de">hasReactionComponent</Literal>
+        <Literal>hasReactionComponent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000063</IRI>
-        <Literal xml:lang="de">isReactionComponentOf</Literal>
+        <Literal>isReactionComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000064</IRI>
-        <Literal xml:lang="de">isCatalystSampleComponentOf</Literal>
+        <Literal>isCatalystSampleComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000065</IRI>
-        <Literal xml:lang="de">isProductComponentOf</Literal>
+        <Literal>isProductComponentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000067</IRI>
-        <Literal xml:lang="de">isPotentiallyCatalysedBy</Literal>
+        <Literal>isPotentiallyCatalysedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000069</IRI>
-        <Literal xml:lang="de">isReactionVesselComponentOf</Literal>
+        <Literal>isReactionVesselComponentOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://nfdi4cat.org/ontologies/reac4cat_000072</IRI>
+        <Literal>This individual models the reaction role of the Haber Bosch reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000072</IRI>
-        <Literal xml:lang="de">HaberBoschReacRole_Ind</Literal>
+        <Literal>HaberBoschReacRole_Ind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://nfdi4cat.org/ontologies/reac4cat_000073</IRI>
+        <Literal>This individual models the reaction role of the methanation reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000073</IRI>
-        <Literal xml:lang="de">MethanationReacRole_Ind</Literal>
+        <Literal>MethanationReacRole_Ind</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://nfdi4cat.org/ontologies/reac4cat_000074</IRI>
-        <Literal xml:lang="de">reaction role</Literal>
+        <Literal>reaction role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>reac4cat:OWLNamedIndividual_c6256d76_2c42_47a3_aef1_6bf3c32407a6</AbbreviatedIRI>
-        <Literal xml:lang="de">Reactor_1</Literal>
+        <IRI>https://nfdi4cat.org/ontologies/reac4cat_000076</IRI>
+        <Literal>Reactor_1</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
@@ -4007,5 +4019,5 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
