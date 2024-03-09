@@ -2,7 +2,7 @@
 """
 Created on Thu Feb  1 10:48:42 2024
 
-@author: smaxbehr
+@author: Alexander Behr
 """
 
 import os
@@ -24,7 +24,6 @@ def indv_extraction(URL,IRI_file):
 # IRI-file: txt-file with the IRI's
 # onto: name of the output-file
 working_dir = os.getcwd()
-#working_dir = "C://Users/smaxbehr/Documents/GitHub/DWSIM-EnzymeML-KGontologies/""
 
 #URL = "https://raw.githubusercontent.com/nfdi4cat/Ontology-Overview-of-NFDI4Cat/main/ontologies/AFO.ttl"
 
