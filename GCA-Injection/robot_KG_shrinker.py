@@ -2,7 +2,7 @@
 """
 Created on Wed Jul  5 10:27:42 2023
 
-@author: smaxbehr
+@author: Alexander Behr
 """
 
 import os
@@ -12,11 +12,10 @@ from owlready2 import *
 # IRI-file: txt-file with the IRI's
 # onto: name of the output-file
 working_dir = os.getcwd()
-#working_dir = "C://Users/smaxbehr/Documents/GitHub/DWSIM-EnzymeML-KGontologies/""
 
 #URL = "https://raw.githubusercontent.com/nfdi4cat/Ontology-Overview-of-NFDI4Cat/main/ontologies/AFO.ttl"
 
-URL = working_dir + "/ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca.owl" #"C://Users/smmcvoel/Documents/GitHub/Abschlussarbeiten_Behr/VoelkenrathMA/ontologies/HuPSON_v092013_merged.owl"
+URL = working_dir + "/ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca.owl" 
 IRI_file = "iri_individuals.txt"
 onto_path = "ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca_robotted.owl"
 
