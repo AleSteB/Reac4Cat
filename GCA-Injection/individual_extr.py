@@ -62,7 +62,7 @@ def ontology_simplification(URL,IRI_file,onto_path):
     
     
    
-URL = working_dir + "/ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca.owl" #"C://Users/smmcvoel/Documents/GitHub/Abschlussarbeiten_Behr/VoelkenrathMA/ontologies/HuPSON_v092013_merged.owl"
+URL = working_dir + "/ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca.owl" 
 IRI_file = "iri_individuals.txt"
 onto_path = "ontologies/KG-DWSIM_EnzML_ELN_output_with_r4c_gca_robotted.owl"
 
