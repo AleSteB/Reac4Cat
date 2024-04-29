@@ -1,0 +1,52 @@
+@prefix ns1: <https://nfdi4cat.org/ontologies/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:reac4cat_000003 a owl:ObjectProperty ;
+    rdfs:label "hasCatalyst" .
+
+ns1:reac4cat_000034 a <http://purl.obolibrary.org/obo/BFO_0000003>,
+        <http://purl.obolibrary.org/obo/BFO_0000015>,
+        <http://purl.obolibrary.org/obo/MOP_0000543>,
+        <http://purl.obolibrary.org/obo/MOP_0000569>,
+        <http://purl.obolibrary.org/obo/MOP_0000589>,
+        owl:NamedIndividual,
+        ns1:reac4cat_000016,
+        ns1:reac4cat_000017,
+        ns1:reac4cat_000025,
+        ns1:reac4cat_000029,
+        ns1:reac4cat_000059 ;
+    rdfs:label "Reaction_2" ;
+    ns1:reac4cat_000003 ns1:reac4cat_000040,
+        ns1:reac4cat_000045 .
+
+ns1:reac4cat_000037 a <http://purl.obolibrary.org/obo/BFO_0000003>,
+        <http://purl.obolibrary.org/obo/BFO_0000015>,
+        <http://purl.obolibrary.org/obo/MOP_0000543>,
+        <http://purl.obolibrary.org/obo/MOP_0000569>,
+        <http://purl.obolibrary.org/obo/MOP_0000589>,
+        owl:NamedIndividual,
+        ns1:reac4cat_000017,
+        ns1:reac4cat_000029,
+        ns1:reac4cat_000059 ;
+    rdfs:label "Reaction_5" ;
+    ns1:reac4cat_000003 ns1:reac4cat_000045 .
+
+ns1:reac4cat_000040 a <http://purl.obolibrary.org/obo/CHEBI_18248>,
+        <http://purl.obolibrary.org/obo/CHEBI_24431>,
+        <http://purl.obolibrary.org/obo/CHEBI_27081>,
+        <http://purl.obolibrary.org/obo/CHEBI_33250>,
+        <http://purl.obolibrary.org/obo/CHEBI_33356>,
+        <http://purl.obolibrary.org/obo/CHEBI_33521>,
+        owl:NamedIndividual ;
+    rdfs:label "Sub_Fe" .
+
+ns1:reac4cat_000045 a <http://purl.obolibrary.org/obo/CHEBI_24431>,
+        <http://purl.obolibrary.org/obo/CHEBI_27081>,
+        <http://purl.obolibrary.org/obo/CHEBI_28112>,
+        <http://purl.obolibrary.org/obo/CHEBI_33250>,
+        <http://purl.obolibrary.org/obo/CHEBI_33362>,
+        <http://purl.obolibrary.org/obo/CHEBI_33521>,
+        owl:NamedIndividual ;
+    rdfs:label "Sub_Ni" .
+

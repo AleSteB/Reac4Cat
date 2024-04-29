@@ -1,0 +1,1638 @@
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.obolibrary.org/obo/IAO_0000116> "Reused Ontologies: [Alexander Behr]\nAFO\nBFO\nRXNO\nMOP\nChebi\nRO\nArtifacts from other OBO ontologies might occur due to cross importing from some of the imported OBO Ontologies."@en .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/elements/1.1/contributor> "Alexander Behr" .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/elements/1.1/contributor> "Hendrik Borgelt" .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> <http://purl.allotrope.org/voc/afo/merged/REC/2023/09/merged-without-qudt-and-inferred.ttl> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> <http://purl.obolibrary.org/obo/chebi.owl> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> <https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> <https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/hasPart> "http://purl.obolibrary.org/obo/ro.owl" .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://purl.org/dc/terms/license> <https://creativecommons.org/public-domain/cc0/> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://nfdi4cat.org/en/> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AleSteB/Reac4Cat> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.allotrope.org/ontologies/property#AFX_0002796
+<http://purl.allotrope.org/ontologies/property#AFX_0002796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.allotrope.org/ontologies/property#AFX_0002798
+<http://purl.allotrope.org/ontologies/property#AFX_0002798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.allotrope.org/ontologies/property#AFX_0002809
+<http://purl.allotrope.org/ontologies/property#AFX_0002809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.allotrope.org/ontologies/property#AFX_0002818
+<http://purl.allotrope.org/ontologies/property#AFX_0002818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.allotrope.org/ontologies/property#AFX_0002865
+<http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000179
+<http://purl.obolibrary.org/obo/BFO_0000179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000179> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000180
+<http://purl.obolibrary.org/obo/BFO_0000180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000180> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000112
+<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000116
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000232
+<http://purl.obolibrary.org/obo/IAO_0000232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000412
+<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000424
+<http://purl.obolibrary.org/obo/IAO_0000424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000600
+<http://purl.obolibrary.org/obo/IAO_0000600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000602
+<http://purl.obolibrary.org/obo/IAO_0000602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0010000
+<http://purl.obolibrary.org/obo/IAO_0010000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001900
+<http://purl.obolibrary.org/obo/RO_0001900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/charge
+<http://purl.obolibrary.org/obo/chebi/charge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/formula
+<http://purl.obolibrary.org/obo/chebi/formula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/inchi
+<http://purl.obolibrary.org/obo/chebi/inchi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/inchikey
+<http://purl.obolibrary.org/obo/chebi/inchikey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/mass
+<http://purl.obolibrary.org/obo/chebi/mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/monoisotopicmass
+<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/chebi/smiles
+<http://purl.obolibrary.org/obo/chebi/smiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/dcam/rangeIncludes
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/relation
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/source
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "A summary of the resource."@en .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract"@en .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/description> <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#comment> "An account of the resource."@en .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+# 
+# http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/rights> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/rights> .
+# 
+# http://purl.org/dc/terms/references
+<http://purl.org/dc/terms/references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/references> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By."@en .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#label> "References"@en .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+# 
+# http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/description> "Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided."@en .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource."@en .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@en .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/source> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system."@en .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource from which the described resource is derived."@en .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/source> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#id
+<http://www.geneontology.org/formats/oboInOwl#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#inSubset
+<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel
+<http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#editorialNote
+<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/mbox
+<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000051
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0002131> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000111> "has part"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000112> "my body has part my brain (continuant parthood, two material entities)"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000112> "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000112> "this year has part this day (occurrent parthood)"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000115> "a core relation that holds between a whole and its part"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000116> "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000116> "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000116> "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000118> "has_part"@en .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_ontology> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_gocam> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/2000/01/rdf-schema#label> "has part"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0000052
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0002314> .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.obolibrary.org/obo/RO_0000053> .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000111> "inheres in"@en .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000112> "this fragility is a characteristic of this vase"@en .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000112> "this red color is a characteristic of this apple"@en .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/IAO_0000118> "inheres_in"@en .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/2000/01/rdf-schema#comment> "Note that this relation was previously called \"inheres in\", but was changed to be called \"characteristic of\" because BFO2 uses \"inheres in\" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing." .
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/2000/01/rdf-schema#label> "characteristic of"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0000053
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/relation> .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#altLabel> "is bearer of" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#definition> "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#editorialNote> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist. [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#example> "this apple is bearer of this red color" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#example> "this vase is bearer of this fragility" .
+<http://purl.obolibrary.org/obo/RO_0000053> <http://www.w3.org/2004/02/skos/core#prefLabel> "bearer of" .
+# 
+# http://purl.obolibrary.org/obo/RO_0000081
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0000052> .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.obolibrary.org/obo/RO_0000087> .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IAO_0000112> "this investigator role is a role of this person"@en .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"@en .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IAO_0000116> "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."@en .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IAO_0000118> "is role of"@en .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/IAO_0000118> "role_of"@en .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/2000/01/rdf-schema#comment> "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/2000/01/rdf-schema#label> "role of"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0000087
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0000053> .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/relation> .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2004/02/skos/core#definition> "A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2004/02/skos/core#editorialNote> "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.  [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2004/02/skos/core#example> "this person has role this investigator role (more colloquially: this person has this role of investigator) [RO]" .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2004/02/skos/core#prefLabel> "has role" .
+# 
+# http://purl.obolibrary.org/obo/RO_0002131
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0002323> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/IAO_0000115> "x overlaps y if and only if there exists some z such that x has part z and z part of y" .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/IAO_0000424> "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_gocam> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/ro/subsets#ro-eco> .
+<http://purl.obolibrary.org/obo/RO_0002131> <http://www.w3.org/2000/01/rdf-schema#label> "overlaps"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0002314
+<http://purl.obolibrary.org/obo/RO_0002314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0002502> .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/IAO_0000115> "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/IAO_0000116> "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/IAO_0000118> "inheres in part of" .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/IAO_0000119> <http://www.ncbi.nlm.nih.gov/pubmed/20064205> .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://www.w3.org/2000/01/rdf-schema#label> "characteristic of part of"@en .
+<http://purl.obolibrary.org/obo/RO_0002314> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/ro/docs/reflexivity/> .
+# 
+# http://purl.obolibrary.org/obo/RO_0002323
+<http://purl.obolibrary.org/obo/RO_0002323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002323> <http://purl.obolibrary.org/obo/IAO_0000115> "A mereological relationship or a topological relationship" .
+<http://purl.obolibrary.org/obo/RO_0002323> <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> .
+<http://purl.obolibrary.org/obo/RO_0002323> <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" .
+<http://purl.obolibrary.org/obo/RO_0002323> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0002323> <http://www.w3.org/2000/01/rdf-schema#label> "mereotopologically related to"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0002502
+<http://purl.obolibrary.org/obo/RO_0002502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> .
+<http://purl.obolibrary.org/obo/RO_0002502> <http://www.w3.org/2000/01/rdf-schema#label> "depends on" .
+<http://purl.obolibrary.org/obo/RO_0002502> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/BFO_0000169> .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000003
+<https://nfdi4cat.org/ontologies/reac4cat_000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000003> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000058> .
+<https://nfdi4cat.org/ontologies/reac4cat_000003> <http://www.w3.org/2000/01/rdf-schema#label> "hasCatalyst" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000004
+<https://nfdi4cat.org/ontologies/reac4cat_000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000004> <http://www.w3.org/2000/01/rdf-schema#label> "hasComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000005
+<https://nfdi4cat.org/ontologies/reac4cat_000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000005> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+<https://nfdi4cat.org/ontologies/reac4cat_000005> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000009> .
+<https://nfdi4cat.org/ontologies/reac4cat_000005> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000004> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000006> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://nfdi4cat.org/ontologies/reac4cat_000005> <http://www.w3.org/2000/01/rdf-schema#label> "hasEductComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000006
+<https://nfdi4cat.org/ontologies/reac4cat_000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000006> <http://www.w3.org/2000/01/rdf-schema#label> "hasInitialMixture" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000007
+<https://nfdi4cat.org/ontologies/reac4cat_000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000007> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+<https://nfdi4cat.org/ontologies/reac4cat_000007> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000065> .
+<https://nfdi4cat.org/ontologies/reac4cat_000007> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000004> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000008> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://nfdi4cat.org/ontologies/reac4cat_000007> <http://www.w3.org/2000/01/rdf-schema#label> "hasProductComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000008
+<https://nfdi4cat.org/ontologies/reac4cat_000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000008> <http://www.w3.org/2000/01/rdf-schema#label> "hasProductComponentSet" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000009
+<https://nfdi4cat.org/ontologies/reac4cat_000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000009> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000063> .
+<https://nfdi4cat.org/ontologies/reac4cat_000009> <http://www.w3.org/2000/01/rdf-schema#label> "isEductComponentOf" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000011
+<https://nfdi4cat.org/ontologies/reac4cat_000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000011> <http://www.w3.org/2000/01/rdf-schema#label> "isCatalyzedBy" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000015
+<https://nfdi4cat.org/ontologies/reac4cat_000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000015> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000015> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000060> .
+<https://nfdi4cat.org/ontologies/reac4cat_000015> <http://www.w3.org/2000/01/rdf-schema#label> "hasReactionRole" .
+<https://nfdi4cat.org/ontologies/reac4cat_000015> <http://www.w3.org/2004/02/skos/core#editorialNote> "This object property should be a subclass of 'has role' http://purl.obolibrary.org/obo/RO_0000087 (or 'has chemical role' http://purl.obolibrary.org/obo/RO_0002262).\nHowever, due to the inverse relation 'characteristic of' http://purl.obolibrary.org/obo/RO_0000052 being a functional relation, the intended reasoning leads to an unwanted inference between individuals. \nThis unwanted inference, in which all Individuals with the property 'has role' are set equivalent to each other, is based on the 'has role' relation pointing to a role bearing individual. [AB]"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000048
+<https://nfdi4cat.org/ontologies/reac4cat_000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000048> <http://www.w3.org/2000/01/rdf-schema#label> "hasReactionVesselMaterial"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000052
+<https://nfdi4cat.org/ontologies/reac4cat_000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000052> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000052> <http://www.w3.org/2000/01/rdf-schema#label> "hasCatalystSample"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000053
+<https://nfdi4cat.org/ontologies/reac4cat_000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000053> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+<https://nfdi4cat.org/ontologies/reac4cat_000053> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000064> .
+<https://nfdi4cat.org/ontologies/reac4cat_000053> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000004> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000052> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000056> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://nfdi4cat.org/ontologies/reac4cat_000053> <http://www.w3.org/2000/01/rdf-schema#label> "hasCatalystSampleComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000054
+<https://nfdi4cat.org/ontologies/reac4cat_000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000054> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+<https://nfdi4cat.org/ontologies/reac4cat_000054> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000069> .
+<https://nfdi4cat.org/ontologies/reac4cat_000054> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000004> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000048> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000056> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://nfdi4cat.org/ontologies/reac4cat_000054> <http://www.w3.org/2000/01/rdf-schema#label> "hasReactorVesselComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000056
+<https://nfdi4cat.org/ontologies/reac4cat_000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000056> <http://www.w3.org/2000/01/rdf-schema#label> "hasReactionVessel"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000058
+<https://nfdi4cat.org/ontologies/reac4cat_000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000058> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000058> <http://www.w3.org/2000/01/rdf-schema#label> "isCatalystOf"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000060
+<https://nfdi4cat.org/ontologies/reac4cat_000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000060> <http://www.w3.org/2000/01/rdf-schema#label> "isReactionRoleOf"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000062
+<https://nfdi4cat.org/ontologies/reac4cat_000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000062> <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000063> .
+<https://nfdi4cat.org/ontologies/reac4cat_000062> <http://www.w3.org/2000/01/rdf-schema#label> "hasReactionComponent" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000063
+<https://nfdi4cat.org/ontologies/reac4cat_000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000063> <http://www.w3.org/2000/01/rdf-schema#label> "isReactionComponentOf" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000064
+<https://nfdi4cat.org/ontologies/reac4cat_000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000064> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000063> .
+<https://nfdi4cat.org/ontologies/reac4cat_000064> <http://www.w3.org/2000/01/rdf-schema#label> "isCatalystSampleComponentOf" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000065
+<https://nfdi4cat.org/ontologies/reac4cat_000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000065> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000063> .
+<https://nfdi4cat.org/ontologies/reac4cat_000065> <http://www.w3.org/2000/01/rdf-schema#label> "isProductComponentOf" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000067
+<https://nfdi4cat.org/ontologies/reac4cat_000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000067> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000011> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000015> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://nfdi4cat.org/ontologies/reac4cat_000067> <http://www.w3.org/2000/01/rdf-schema#label> "isPotentiallyCatalysedBy" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000069
+<https://nfdi4cat.org/ontologies/reac4cat_000069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000069> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://nfdi4cat.org/ontologies/reac4cat_000063> .
+<https://nfdi4cat.org/ontologies/reac4cat_000069> <http://www.w3.org/2000/01/rdf-schema#label> "isReactionVesselComponentOf" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000012
+<https://nfdi4cat.org/ontologies/reac4cat_000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000012> <http://www.w3.org/2000/01/rdf-schema#label> "measured_reaction_velocity" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000013
+<https://nfdi4cat.org/ontologies/reac4cat_000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000013> <http://www.w3.org/2000/01/rdf-schema#label> "hasMeanReactionPressure" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000014
+<https://nfdi4cat.org/ontologies/reac4cat_000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://nfdi4cat.org/ontologies/reac4cat_000014> <http://www.w3.org/2000/01/rdf-schema#label> "hasMeanReactionTemperature" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.allotrope.org/ontologies/process#AFP_0003711
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical reaction is a process that results in the interconversion of chemical species. [IUPAC]" .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.allotrope.org/ontologies/process#AFP_0003711" .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> "chemical reaction" .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> "reaction" .
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> <http://www.w3.org/2000/01/rdf-schema#label> "chemical reaction (molecular)" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000217
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000086> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://purl.allotrope.org/ontologies/property#AFX_0002798> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://purl.allotrope.org/ontologies/property#AFX_0002809> <http://purl.obolibrary.org/obo/CHEBI_35223> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://purl.org/dc/terms/license> <http://purl.allotrope.org/voc/iupac-license> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://purl.org/dc/terms/rights> <http://purl.allotrope.org/voc/iupac-copyright> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://purl.org/dc/terms/source> "PAC, 1996, 68, 155 (Glossary of terms used in chemical kinetics, including reaction dynamics.)" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/2004/02/skos/core#altLabel> "catalyst" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/2004/02/skos/core#definition> "A catalyst role is a reagent role of a substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction; the process is called catalysis. The catalyst is both a reactant and product of the reaction. [IUPAC]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> <http://www.w3.org/2004/02/skos/core#prefLabel> "catalyst role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000229
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000086> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#altLabel> "intermedate reagent role" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#altLabel> "intermediate" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#altLabel> "intermediate reagent role" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#altLabel> "intermediate role" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#altLabel> "reaction intermediate" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#definition> "Intermediate role is a role of material that is formed from reactants (or preceding intermediates) and reacts further to give the directly observed products of a chemical reaction. [Wikipedia]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> <http://www.w3.org/2004/02/skos/core#prefLabel> "reaction intermediate role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000231
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000086> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2004/02/skos/core#altLabel> "reactant" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2004/02/skos/core#altLabel> "starting material" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2004/02/skos/core#definition> "Reactant role is a role of a chemical entity that is present at the start of a reaction. [Allotrope]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> <http://www.w3.org/2004/02/skos/core#prefLabel> "reactant role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000249
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.allotrope.org/ontologies/role#AFRL_0000344> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/2004/02/skos/core#altLabel> "ingredient" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/2004/02/skos/core#definition> "Ingredient is a role of material that is used in a material combining process to produce a new material. [Allotrope]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> <http://www.w3.org/2004/02/skos/core#prefLabel> "ingredient role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000344
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> <http://www.w3.org/2004/02/skos/core#definition> "A synthesis role is a role of a material that is participating in a synthesis (material conversion) process. [Allotrope]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> <http://www.w3.org/2004/02/skos/core#prefLabel> "synthesis role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000360
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.allotrope.org/ontologies/role#AFRL_0000344> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2004/02/skos/core#altLabel> "chemical product" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2004/02/skos/core#altLabel> "product" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2004/02/skos/core#definition> "A role of a material that is intended and desired to be  produced in a synthesis. [Allotrope]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> <http://www.w3.org/2004/02/skos/core#prefLabel> "product role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000361
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.allotrope.org/ontologies/role#AFRL_0000360> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2004/02/skos/core#altLabel> "batch" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2004/02/skos/core#altLabel> "lot" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2004/02/skos/core#altLabel> "lot role" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2004/02/skos/core#definition> "Batch role is a product role of a portion of material that is intended to have uniform character and quality, within specified limits, and is produced according to a single manufacturing order during the same cycle of manufacture. [Allotrope, CFR21]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> <http://www.w3.org/2004/02/skos/core#prefLabel> "batch role" .
+# 
+# http://purl.allotrope.org/ontologies/role#AFRL_0000421
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000086> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> <http://www.w3.org/2004/02/skos/core#definition> "A reagent role of the material with the least mole quantity in a chemical process and as such limits the amount of product that can be formed. [Allotrope]" .
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> <http://www.w3.org/2004/02/skos/core#prefLabel> "limiting reagent role" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000003
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantic artefact of the BFO class 'occurent' (http://purl.obolibrary.org/obo/BFO_0000003) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "occurent" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000003> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000179> "process" .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000180> "Process" .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "a process of cell-division, \\ a beating of the heart"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "a process of meiosis"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "a process of sleeping"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "the course of a disease"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "the flight of a bird"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "the life of an organism"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000112> "your process of aging."@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000115> "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000602> "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] " .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.obolibrary.org/obo/bfo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "process"@en .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/BFO_0000015> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedTarget> "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en .
+_:genid13 <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/083-003> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/BFO_0000015> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000602> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedTarget> "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] " .
+_:genid14 <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/083-003> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000017
+<http://purl.obolibrary.org/obo/BFO_0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000017> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantic artefact of the BFO class 'realizable entity' (http://purl.obolibrary.org/obo/BFO_0000017) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en .
+<http://purl.obolibrary.org/obo/BFO_0000017> <http://www.w3.org/2000/01/rdf-schema#label> "realizable entity" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000023
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000017> .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000179> "role" .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000180> "Role" .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the priest role"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the role of a boundary to demarcate two neighboring administrative territories"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the role of a building in serving as a military target"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the role of a stone in marking a property boundary"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the role of subject in a clinical trial"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000112> "the student role"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000600> "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/IAO_0000602> "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.obolibrary.org/obo/bfo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "role"@en .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/BFO_0000023> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000600> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedTarget> "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en .
+_:genid15 <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/BFO_0000023> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000602> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedTarget> "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " .
+_:genid16 <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantic artefact of the BFO class 'Material Entity' (http://purl.obolibrary.org/obo/BFO_0000040) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "material entity"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_138675
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33579> .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://purl.obolibrary.org/obo/IAO_0000115> "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa)." .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:138675" .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_138675> <http://www.w3.org/2000/01/rdf-schema#label> "gas molecular entity" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_15377
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_52625> .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/IAO_0000115> "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/charge> "0" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/formula> "H2O" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/inchi> "InChI=1S/H2O/h1H2" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/inchikey> "XLYOFNOQVPJJNP-UHFFFAOYSA-N" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/mass> "18.01530" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/monoisotopicmass> "18.01056" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://purl.obolibrary.org/obo/chebi/smiles> "[H]O[H]" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:10743" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13352" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:27313" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:42043" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:42857" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:43228" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44292" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44701" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44819" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:5585" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:15377" .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_15377> <http://www.w3.org/2000/01/rdf-schema#label> "water" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_16134
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_138675> .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://purl.obolibrary.org/obo/IAO_0000115> "An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms." .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13405" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13406" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13407" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13771" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:22533" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44269" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44284" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:44404" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:7434" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16134" .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_16134> <http://www.w3.org/2000/01/rdf-schema#label> "ammonia" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_16183
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_138675> .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://purl.obolibrary.org/obo/IAO_0000115> "A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC)." .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:14585" .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25220" .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:6811" .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16183" .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_16183> <http://www.w3.org/2000/01/rdf-schema#label> "methane" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_16526
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_138675> .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://purl.obolibrary.org/obo/IAO_0000115> "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food." .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13282" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13283" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13284" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13285" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:23011" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:3283" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:48829" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16526" .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_16526> <http://www.w3.org/2000/01/rdf-schema#label> "carbon dioxide" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_17997
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_138675> .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://purl.obolibrary.org/obo/IAO_0000115> "An elemental molecule consisting of two trivalently-bonded nitrogen atoms." .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13388" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:14660" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25365" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:43128" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:7593" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17997" .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_17997> <http://www.w3.org/2000/01/rdf-schema#label> "dinitrogen" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_18248
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33356> .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://purl.obolibrary.org/obo/IAO_0000115> "An iron group element atom that has atomic number 26." .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13322" .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:24872" .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:5974" .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18248" .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_18248> <http://www.w3.org/2000/01/rdf-schema#label> "iron atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_18276
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_138675> .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://purl.obolibrary.org/obo/IAO_0000115> "An elemental molecule consisting of two hydrogens joined by a single bond." .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13350" .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25363" .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:5785" .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18276" .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_18276> <http://www.w3.org/2000/01/rdf-schema#label> "dihydrogen" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_23367
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/bfo.owl#material> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.allotrope.org/ontologies/property#AFX_0002796> <http://purl.allotrope.org/ontologies/result#AFR_0001222> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.obolibrary.org/obo/chebi.owl> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/IAO_0000115> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.org/dc/terms/license> <http://purl.allotrope.org/voc/iupac-license> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.org/dc/terms/rights> <http://purl.allotrope.org/voc/iupac-copyright> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.org/dc/terms/source> "PAC, 1994, 66, 1077. (Glossary of terms used in physical organic chemistry (IUPAC Recommendations 1994)) on page 1142" .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:23367" .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/molecular-scale> .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2000/01/rdf-schema#label> "molecular entity" .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2004/02/skos/core#definition> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity. [IUPAC]" .
+<http://purl.obolibrary.org/obo/CHEBI_23367> <http://www.w3.org/2004/02/skos/core#prefLabel> "molecular entity" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_24431
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24431" .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.w3.org/2000/01/rdf-schema#label> "chemical entity" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_24835
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_23367> .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/IAO_0000115> "A molecular entity that contains no carbon." .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24835" .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.w3.org/2000/01/rdf-schema#label> "inorganic molecular entity" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_27081
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33521> .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://purl.obolibrary.org/obo/IAO_0000115> "An element whose atom has an incomplete d sub-shell, or which can give rise to cations with an incomplete d sub-shell." .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27081" .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_27081> <http://www.w3.org/2000/01/rdf-schema#label> "transition element atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_28112
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33362> .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://purl.obolibrary.org/obo/IAO_0000115> "Chemical element (nickel group element atom) with atomic number 28." .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25515" .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:7552" .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28112" .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_28112> <http://www.w3.org/2000/01/rdf-schema#label> "nickel atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_30682
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33356> .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33365> .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://purl.obolibrary.org/obo/IAO_0000115> "An iron group element atom that has formula Ru." .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30682" .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_30682> <http://www.w3.org/2000/01/rdf-schema#label> "ruthenium atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33250
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical entity constituting the smallest component of an element having the chemical properties of the element." .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:22671" .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:23907" .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33250" .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#label> "atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33352
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_27081> .
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33352" .
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33352> <http://www.w3.org/2000/01/rdf-schema#label> "manganese group element atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33356
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_27081> .
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33356" .
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33356> <http://www.w3.org/2000/01/rdf-schema#label> "iron group element atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33362
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_27081> .
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33362" .
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33362> <http://www.w3.org/2000/01/rdf-schema#label> "nickel group element atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33365
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_27081> .
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33365" .
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33365> <http://www.w3.org/2000/01/rdf-schema#label> "platinum group metal atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33521
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://purl.obolibrary.org/obo/IAO_0000115> "An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity." .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25217" .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:6788" .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33521" .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33521> <http://www.w3.org/2000/01/rdf-schema#label> "metal atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33579
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_23367> .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/IAO_0000115> "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33579" .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.w3.org/2000/01/rdf-schema#label> "main group molecular entity" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_49882
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_33352> .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://purl.obolibrary.org/obo/IAO_0000115> "A manganese group element atom that has formula Re." .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:33354" .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:49879" .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:49882" .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_49882> <http://www.w3.org/2000/01/rdf-schema#label> "rhenium atom" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_52625
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_24835> .
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:52625" .
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_52625> <http://www.w3.org/2000/01/rdf-schema#label> "inorganic hydroxy compound" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_59999
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types." .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:59999" .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_59999> <http://www.w3.org/2000/01/rdf-schema#label> "chemical substance" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_60003
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_59999> .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://purl.obolibrary.org/obo/IAO_0000115> "A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind." .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:60003" .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_60003> <http://www.w3.org/2000/01/rdf-schema#label> "pure substance" .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_60004
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/CHEBI_59999> .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://purl.obolibrary.org/obo/IAO_0000115> "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind." .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:60004" .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> .
+<http://purl.obolibrary.org/obo/CHEBI_60004> <http://www.w3.org/2000/01/rdf-schema#label> "mixture" .
+# 
+# http://purl.obolibrary.org/obo/MOP_0000543
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://purl.obolibrary.org/obo/IAO_0000115> "A process in which at least one of the participants is a molecule." .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000543" .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO: needs work, formal definition, etc." .
+<http://purl.obolibrary.org/obo/MOP_0000543> <http://www.w3.org/2000/01/rdf-schema#label> "molecular process" .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/MOP_0000543> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedTarget> "A process in which at least one of the participants is a molecule." .
+_:genid17 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429" .
+# 
+# http://purl.obolibrary.org/obo/MOP_0000569
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/MOP_0000543> .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://purl.obolibrary.org/obo/IAO_0000115> "The complete transfer of one or more electrons to a molecular entity." .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.geneontology.org/formats/oboInOwl#created_by> "batchelorc" .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2009-06-01T06:04:18Z" .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "electronation" .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000569" .
+<http://purl.obolibrary.org/obo/MOP_0000569> <http://www.w3.org/2000/01/rdf-schema#label> "reduction" .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/MOP_0000569> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedTarget> "The complete transfer of one or more electrons to a molecular entity." .
+_:genid18 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AU:R05222" .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/MOP_0000569> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedTarget> "The complete transfer of one or more electrons to a molecular entity." .
+_:genid19 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.R05222" .
+# 
+# http://purl.obolibrary.org/obo/MOP_0000589
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/MOP_0000569> .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://purl.obolibrary.org/obo/IAO_0000115> "A reduction process that involves addition of hydrogen atoms across a double bond." .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.geneontology.org/formats/oboInOwl#created_by> "batchelorc" .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2009-06-05T04:53:34Z" .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000589" .
+<http://purl.obolibrary.org/obo/MOP_0000589> <http://www.w3.org/2000/01/rdf-schema#label> "hydrogenation" .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/MOP_0000589> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedTarget> "A reduction process that involves addition of hydrogen atoms across a double bond." .
+_:genid20 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429" .
+# 
+# http://purl.obolibrary.org/obo/OBI_0000086
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.allotrope.org/ontologies/role#AFRL_0000249> .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://purl.allotrope.org/ontologies/property#AFX_0002809> <http://purl.obolibrary.org/obo/CHEBI_33893> .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/2004/02/skos/core#altLabel> "reagent" .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/2004/02/skos/core#definition> "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer. [OBI]" .
+<http://purl.obolibrary.org/obo/OBI_0000086> <http://www.w3.org/2004/02/skos/core#prefLabel> "reagent role" .
+# 
+# http://purl.obolibrary.org/obo/bfo.owl#material
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://purl.allotrope.org/ontologies/property#AFX_0002818> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.allotrope.org/taxonomy> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.allotrope.org/voc/afo/REC/2018/07/aft> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/portion-of-material> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/system> .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.allotrope.org/ontologies/material#AFM_0000275" .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2004/02/skos/core#altLabel> "matter" .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2004/02/skos/core#definition> "A material entity that occupies space and possesses a rest mass. [Allotrope]" .
+<http://purl.obolibrary.org/obo/bfo.owl#material> <http://www.w3.org/2004/02/skos/core#prefLabel> "material" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000001
+<https://nfdi4cat.org/ontologies/reac4cat_000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/bfo.owl#material> .
+<https://nfdi4cat.org/ontologies/reac4cat_000001> <http://www.w3.org/2000/01/rdf-schema#label> "process mixture" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000016
+<https://nfdi4cat.org/ontologies/reac4cat_000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://nfdi4cat.org/ontologies/reac4cat_000025> .
+<https://nfdi4cat.org/ontologies/reac4cat_000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://nfdi4cat.org/ontologies/reac4cat_000074> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://nfdi4cat.org/ontologies/reac4cat_000016> <http://www.w3.org/2000/01/rdf-schema#label> "catalysed Haber Bosch reaction" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000017
+<https://nfdi4cat.org/ontologies/reac4cat_000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://nfdi4cat.org/ontologies/reac4cat_000029> .
+<https://nfdi4cat.org/ontologies/reac4cat_000017> <http://www.w3.org/2000/01/rdf-schema#label> "catalysed methanation reaction" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000025
+<https://nfdi4cat.org/ontologies/reac4cat_000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000025> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#oneOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000072> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000015> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://nfdi4cat.org/ontologies/reac4cat_000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/MOP_0000589> .
+<https://nfdi4cat.org/ontologies/reac4cat_000025> <http://www.w3.org/2000/01/rdf-schema#label> "Haber Bosch reaction" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000029
+<https://nfdi4cat.org/ontologies/reac4cat_000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000029> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#oneOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000073> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000015> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://nfdi4cat.org/ontologies/reac4cat_000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/MOP_0000589> .
+<https://nfdi4cat.org/ontologies/reac4cat_000029> <http://www.w3.org/2000/01/rdf-schema#label> "methanation reaction" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000049
+<https://nfdi4cat.org/ontologies/reac4cat_000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000049> <http://www.w3.org/2000/01/rdf-schema#label> "reaction vessel"@en .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000050
+<https://nfdi4cat.org/ontologies/reac4cat_000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000050> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/bfo.owl#material> .
+<https://nfdi4cat.org/ontologies/reac4cat_000050> <http://www.w3.org/2000/01/rdf-schema#label> "catalyst sample" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000051
+<https://nfdi4cat.org/ontologies/reac4cat_000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000051> <http://www.w3.org/2000/01/rdf-schema#label> "vessel material" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000059
+<https://nfdi4cat.org/ontologies/reac4cat_000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000059> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000003> .
+<https://nfdi4cat.org/ontologies/reac4cat_000059> <http://www.w3.org/2000/01/rdf-schema#label> "reaction assay" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000074
+<https://nfdi4cat.org/ontologies/reac4cat_000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://nfdi4cat.org/ontologies/reac4cat_000074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.allotrope.org/ontologies/role#AFRL_0000344> .
+<https://nfdi4cat.org/ontologies/reac4cat_000074> <http://www.w3.org/2000/01/rdf-schema#label> "reaction role" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000018
+<https://nfdi4cat.org/ontologies/reac4cat_000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000050> .
+<https://nfdi4cat.org/ontologies/reac4cat_000018> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+<https://nfdi4cat.org/ontologies/reac4cat_000018> <http://www.w3.org/2000/01/rdf-schema#label> "CatalystSample_1" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000019
+<https://nfdi4cat.org/ontologies/reac4cat_000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000050> .
+<https://nfdi4cat.org/ontologies/reac4cat_000019> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+<https://nfdi4cat.org/ontologies/reac4cat_000019> <http://www.w3.org/2000/01/rdf-schema#label> "CatalystSample_2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000021
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000041> .
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000043> .
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <http://www.w3.org/2000/01/rdf-schema#comment> "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000021> <http://www.w3.org/2000/01/rdf-schema#label> "EductMixture_1" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000022
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000039> .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000041> .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000043> .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <http://www.w3.org/2000/01/rdf-schema#comment> "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000022> <http://www.w3.org/2000/01/rdf-schema#label> "EductMixture_2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000023
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000039> .
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000041> .
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <http://www.w3.org/2000/01/rdf-schema#comment> "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000023> <http://www.w3.org/2000/01/rdf-schema#label> "EductMixture_3" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000024
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000018> .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000039> .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000041> .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <http://www.w3.org/2000/01/rdf-schema#comment> "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000024> <http://www.w3.org/2000/01/rdf-schema#label> "EductMixture_4" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000030
+<https://nfdi4cat.org/ontologies/reac4cat_000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000030> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000044> .
+<https://nfdi4cat.org/ontologies/reac4cat_000030> <http://www.w3.org/2000/01/rdf-schema#comment> "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000030> <http://www.w3.org/2000/01/rdf-schema#label> "ProductComponentSet_1" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000031
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000038> .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000042> .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000044> .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <http://www.w3.org/2000/01/rdf-schema#comment> "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000031> <http://www.w3.org/2000/01/rdf-schema#label> "ProductComponentSet_2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000032
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000001> .
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000038> .
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000042> .
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <http://www.w3.org/2000/01/rdf-schema#comment> "This set of components, which serve as an example for a set of components which would occur after a methanation reaction as products"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000032> <http://www.w3.org/2000/01/rdf-schema#label> "ProductComponentSet_3" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000033
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000059> .
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000021> .
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000030> .
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an example individual which will be inferred as Haber Bosch reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000033> <http://www.w3.org/2000/01/rdf-schema#label> "Reaction_1" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000034
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000059> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000022> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000031> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <https://nfdi4cat.org/ontologies/reac4cat_000056> <https://nfdi4cat.org/ontologies/reac4cat_000076> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <https://nfdi4cat.org/ontologies/reac4cat_000013> "250.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <https://nfdi4cat.org/ontologies/reac4cat_000014> "450.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an example individual which will be inferred as Haber Bosch reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000034> <http://www.w3.org/2000/01/rdf-schema#label> "Reaction_2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000035
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000059> .
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000023> .
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> .
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an example individual which will be inferred as methanation reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000035> <http://www.w3.org/2000/01/rdf-schema#label> "Reaction_3" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000036
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000059> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000023> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <https://nfdi4cat.org/ontologies/reac4cat_000013> "250.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <https://nfdi4cat.org/ontologies/reac4cat_000014> "375.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an example individual which will be inferred as methanation reaction"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000036> <http://www.w3.org/2000/01/rdf-schema#label> "Reaction_4" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000037
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000059> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000024> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <https://nfdi4cat.org/ontologies/reac4cat_000013> "249.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <https://nfdi4cat.org/ontologies/reac4cat_000014> "374.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an example individual which will be inferred as methanation reaction" .
+<https://nfdi4cat.org/ontologies/reac4cat_000037> <http://www.w3.org/2000/01/rdf-schema#label> "Reaction_5" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000038
+<https://nfdi4cat.org/ontologies/reac4cat_000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_16183> .
+<https://nfdi4cat.org/ontologies/reac4cat_000038> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_CH4" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000039
+<https://nfdi4cat.org/ontologies/reac4cat_000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_16526> .
+<https://nfdi4cat.org/ontologies/reac4cat_000039> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_CO2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000040
+<https://nfdi4cat.org/ontologies/reac4cat_000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_18248> .
+<https://nfdi4cat.org/ontologies/reac4cat_000040> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_Fe" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000041
+<https://nfdi4cat.org/ontologies/reac4cat_000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_18276> .
+<https://nfdi4cat.org/ontologies/reac4cat_000041> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_H2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000042
+<https://nfdi4cat.org/ontologies/reac4cat_000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_15377> .
+<https://nfdi4cat.org/ontologies/reac4cat_000042> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_H2O" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000043
+<https://nfdi4cat.org/ontologies/reac4cat_000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_17997> .
+<https://nfdi4cat.org/ontologies/reac4cat_000043> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_N2" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000044
+<https://nfdi4cat.org/ontologies/reac4cat_000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_16134> .
+<https://nfdi4cat.org/ontologies/reac4cat_000044> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_NH4" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000045
+<https://nfdi4cat.org/ontologies/reac4cat_000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_28112> .
+<https://nfdi4cat.org/ontologies/reac4cat_000045> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_Ni" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000046
+<https://nfdi4cat.org/ontologies/reac4cat_000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_49882> .
+<https://nfdi4cat.org/ontologies/reac4cat_000046> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_Rh" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000047
+<https://nfdi4cat.org/ontologies/reac4cat_000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/CHEBI_30682> .
+<https://nfdi4cat.org/ontologies/reac4cat_000047> <http://www.w3.org/2000/01/rdf-schema#comment> "An Individual representing a Substance consisting of Ruthenium"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000047> <http://www.w3.org/2000/01/rdf-schema#comment> "Intended only as an example of adding new individuals to the ontology"@en .
+<https://nfdi4cat.org/ontologies/reac4cat_000047> <http://www.w3.org/2000/01/rdf-schema#label> "Sub_Ru" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000055
+<https://nfdi4cat.org/ontologies/reac4cat_000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000055> <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000055> <http://www.w3.org/2000/01/rdf-schema#label> "ReactorMaterial_1" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000072
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000074> .
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000040> .
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <http://www.w3.org/2000/01/rdf-schema#comment> "This individual models the reaction role of the Haber Bosch reaction" .
+<https://nfdi4cat.org/ontologies/reac4cat_000072> <http://www.w3.org/2000/01/rdf-schema#label> "HaberBoschReacRole_Ind" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000073
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000074> .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000046> .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000047> .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <http://www.w3.org/2000/01/rdf-schema#comment> "This individual models the reaction role of the methanation reaction" .
+<https://nfdi4cat.org/ontologies/reac4cat_000073> <http://www.w3.org/2000/01/rdf-schema#label> "MethanationReacRole_Ind" .
+# 
+# https://nfdi4cat.org/ontologies/reac4cat_000076
+<https://nfdi4cat.org/ontologies/reac4cat_000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://nfdi4cat.org/ontologies/reac4cat_000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://nfdi4cat.org/ontologies/reac4cat_000049> .
+<https://nfdi4cat.org/ontologies/reac4cat_000076> <https://nfdi4cat.org/ontologies/reac4cat_000048> <https://nfdi4cat.org/ontologies/reac4cat_000055> .
+<https://nfdi4cat.org/ontologies/reac4cat_000076> <https://nfdi4cat.org/ontologies/reac4cat_000052> <https://nfdi4cat.org/ontologies/reac4cat_000019> .
+<https://nfdi4cat.org/ontologies/reac4cat_000076> <http://www.w3.org/2000/01/rdf-schema#label> "Reactor_1" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.obolibrary.org/obo/iao.owl> .
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/2000/01/rdf-schema#label> "editor note"@en .
+# 
+<http://purl.org/dc/terms/hasPart> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of."@en .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is included either physically or logically in the described resource."@en .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Has Part"@en .
+# 
+<http://purl.org/dc/terms/license> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/LicenseDocument> .
+<http://purl.org/dc/terms/license> <http://purl.org/dc/terms/description> "Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided."@en .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal document giving official permission to do something with the resource."@en .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "License"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid28 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid31 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://nfdi4cat.org/ontologies/reac4cat_000025> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#unionOf> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000040> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000025> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://nfdi4cat.org/ontologies/reac4cat_000016> .
+# 
+_:genid40 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid43 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://nfdi4cat.org/ontologies/reac4cat_000029> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#inverseOf> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#unionOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000040> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000029> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://nfdi4cat.org/ontologies/reac4cat_000017> .
+# 
+_:genid52 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_16183> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000007> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_15377> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000007> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_18276> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000005> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_16526> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000005> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid52 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#oneOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000073> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000015> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid64 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_16134> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000007> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_18276> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000005> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/CHEBI_17997> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000005> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#oneOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000072> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000015> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid74 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#oneOf> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000040> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000067> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#oneOf> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000040> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid74 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#oneOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000040> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid86 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#oneOf> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000067> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#oneOf> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid86 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#oneOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000045> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid98 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#oneOf> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000046> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000067> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#oneOf> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000046> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid98 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#oneOf> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000046> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid110 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#oneOf> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000047> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000067> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#oneOf> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000047> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000062> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid110 <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid119 .
+_:genid119 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#oneOf> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://nfdi4cat.org/ontologies/reac4cat_000047> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <https://nfdi4cat.org/ontologies/reac4cat_000003> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

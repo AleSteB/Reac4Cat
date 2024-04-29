@@ -1,0 +1,4195 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://purl.allotrope.org/ontologies/process", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://nfdi4cat.org/ontologies", "http://purl.allotrope.org/ontologies/role", "http://purl.obolibrary.org/obo/bfo.owl" ],
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_with_examples",
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/public-domain/cc0/",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Alexander Behr",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Hendrik Borgelt",
+        "type" : "label"
+      } ],
+      "hasPart" : [ {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi.owl",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ro.owl",
+        "type" : "label"
+      }, {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/merged/REC/2023/09/merged-without-qudt-and-inferred.ttl",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasPart",
+        "language" : "undefined",
+        "value" : "https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl",
+        "type" : "iri"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Reused Ontologies: [Alexander Behr]\nAFO\nBFO\nRXNO\nMOP\nChebi\nRO\nArtifacts from other OBO ontologies might occur due to cross importing from some of the imported OBO Ontologies.",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://nfdi4cat.org/en/",
+        "type" : "iri"
+      } ],
+      "homepage" : [ {
+        "identifier" : "homepage",
+        "language" : "undefined",
+        "value" : "https://github.com/AleSteB/Reac4Cat",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "134",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000059",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000059",
+      "undefined" : "reaction assay"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000037",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "undefined" : "This is an example individual which will be inferred as methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000037",
+        "undefined" : "Reaction_5"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000036",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This is an example individual which will be inferred as methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000036",
+        "undefined" : "Reaction_4"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000035",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This is an example individual which will be inferred as methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000035",
+        "undefined" : "Reaction_3"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000034",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This is an example individual which will be inferred as Haber Bosch reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000034",
+        "undefined" : "Reaction_2"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000033",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This is an example individual which will be inferred as Haber Bosch reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000033",
+        "undefined" : "Reaction_1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_59999",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:59999",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_59999",
+      "undefined" : "chemical substance"
+    },
+    "subClasses" : [ "11", "12" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33521",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33521",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:25217",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:6788",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33521",
+      "undefined" : "metal atom"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33365",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33365",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33365",
+      "undefined" : "platinum group metal atom"
+    },
+    "subClasses" : [ "19" ],
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33362",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33362",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33362",
+      "undefined" : "nickel group element atom"
+    },
+    "subClasses" : [ "21" ],
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_18248",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An iron group element atom that has atomic number 26.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:18248",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13322",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:5974",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:24872",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_18248",
+      "undefined" : "iron atom"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000040",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000040",
+        "undefined" : "Sub_Fe"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_15377",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inchikey" : [ {
+        "identifier" : "inchikey",
+        "language" : "undefined",
+        "value" : "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+        "type" : "label"
+      } ],
+      "charge" : [ {
+        "identifier" : "charge",
+        "language" : "undefined",
+        "value" : "0",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms",
+        "type" : "label"
+      } ],
+      "inchi" : [ {
+        "identifier" : "inchi",
+        "language" : "undefined",
+        "value" : "InChI=1S/H2O/h1H2",
+        "type" : "label"
+      } ],
+      "smiles" : [ {
+        "identifier" : "smiles",
+        "language" : "undefined",
+        "value" : "[H]O[H]",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "mass" : [ {
+        "identifier" : "mass",
+        "language" : "undefined",
+        "value" : "18.01530",
+        "type" : "label"
+      } ],
+      "formula" : [ {
+        "identifier" : "formula",
+        "language" : "undefined",
+        "value" : "H2O",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:15377",
+        "type" : "label"
+      } ],
+      "monoisotopicmass" : [ {
+        "identifier" : "monoisotopicmass",
+        "language" : "undefined",
+        "value" : "18.01056",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:42857",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:5585",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:43228",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:27313",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:42043",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44701",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44292",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:10743",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44819",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13352",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_15377",
+      "undefined" : "water"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000042",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000042",
+        "undefined" : "Sub_H2O"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000049",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000049",
+      "en" : "reaction vessel"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000076",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000076",
+        "undefined" : "Reactor_1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33250",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A chemical entity constituting the smallest component of an element having the chemical properties of the element.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33250",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:22671",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:23907",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33250",
+      "undefined" : "atom"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_16183",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC).",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:16183",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:25220",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:6811",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:14585",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_16183",
+      "undefined" : "methane"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000038",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000038",
+        "undefined" : "Sub_CH4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000051",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000051",
+      "undefined" : "vessel material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000050",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000050",
+      "undefined" : "catalyst sample"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000019",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000019",
+        "undefined" : "CatalystSample_2"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000018",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000018",
+        "undefined" : "CatalystSample_1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/bfo.owl#material",
+    "baseIri" : "http://purl.obolibrary.org/obo/bfo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "AFX_0002865" : [ {
+        "identifier" : "AFX_0002865",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2018/07/aft",
+        "type" : "iri"
+      }, {
+        "identifier" : "AFX_0002865",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/taxonomy",
+        "type" : "iri"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/portion-of-material",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/system",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/ontologies/material#AFM_0000275",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "material",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A material entity that occupies space and possesses a rest mass. [Allotrope]",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "matter",
+        "type" : "label"
+      } ],
+      "AFX_0002818" : [ {
+        "identifier" : "AFX_0002818",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "material"
+    },
+    "subClasses" : [ "80", "76", "7" ],
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000003",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000003",
+      "undefined" : "occurent"
+    },
+    "subClasses" : [ "0", "79" ],
+    "comment" : {
+      "en" : "Semantic artefact of the BFO class 'occurent' (http://purl.obolibrary.org/obo/BFO_0000003) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/MOP_0000589",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0001-5985-7429",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A reduction process that involves addition of hydrogen atoms across a double bond.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "RXNO",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2009-06-05T04:53:34Z",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "MOP:0000589",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "batchelorc",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOP_0000589",
+      "undefined" : "hydrogenation"
+    },
+    "subClasses" : [ "69", "60" ],
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_16526",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:16526",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13282",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:3283",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:48829",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:23011",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13284",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13285",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13283",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_16526",
+      "undefined" : "carbon dioxide"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000039",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000039",
+        "undefined" : "Sub_CO2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000421",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "limiting reagent role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A reagent role of the material with the least mole quantity in a chemical process and as such limits the amount of product that can be formed. [Allotrope]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000421"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000025",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000025",
+      "undefined" : "Haber Bosch reaction"
+    },
+    "subClasses" : [ "71" ],
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33356",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33356",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33356",
+      "undefined" : "iron group element atom"
+    },
+    "subClasses" : [ "22", "19" ],
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000029",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000029",
+      "undefined" : "methanation reaction"
+    },
+    "subClasses" : [ "59" ],
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_49882",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A manganese group element atom that has formula Re.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:49882",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:33354",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:49879",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_49882",
+      "undefined" : "rhenium atom"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000046",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000046",
+        "undefined" : "Sub_Rh"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33352",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33352",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33352",
+      "undefined" : "manganese group element atom"
+    },
+    "subClasses" : [ "55" ],
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_27081",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An element whose atom has an incomplete d sub-shell, or which can give rise to cations with an incomplete d sub-shell.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:27081",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_27081",
+      "undefined" : "transition element atom"
+    },
+    "subClasses" : [ "23", "18", "47", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/MOP_0000569",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://doi.org/10.1351/goldbook.R05222",
+        "type" : "label"
+      }, {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "AU:R05222",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "The complete transfer of one or more electrons to a molecular entity.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "electronation",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "RXNO",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2009-06-01T06:04:18Z",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "MOP:0000569",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "batchelorc",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOP_0000569",
+      "undefined" : "reduction"
+    },
+    "subClasses" : [ "30" ],
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000017",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000017",
+      "undefined" : "catalysed methanation reaction"
+    },
+    "intersection" : [ "60" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000023",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "BFO_0000180" : [ {
+        "identifier" : "BFO_0000180",
+        "language" : "undefined",
+        "value" : "Role",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the priest role",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of subject in a clinical trial",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a boundary to demarcate two neighboring administrative territories",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a building in serving as a military target",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a stone in marking a property boundary",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the student role",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/bfo.owl",
+        "type" : "iri"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.",
+        "type" : "label"
+      } ],
+      "IAO_0000600" : [ {
+        "identifier" : "IAO_0000600",
+        "language" : "en",
+        "value" : "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])",
+        "type" : "label"
+      } ],
+      "BFO_0000179" : [ {
+        "identifier" : "BFO_0000179",
+        "language" : "undefined",
+        "value" : "role",
+        "type" : "label"
+      } ],
+      "IAO_0000602" : [ {
+        "identifier" : "IAO_0000602",
+        "language" : "undefined",
+        "value" : "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] ",
+        "type" : "label"
+      } ],
+      "IAO_0010000" : [ {
+        "identifier" : "IAO_0010000",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/bfo/axiom/061-001",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000023",
+      "en" : "role"
+    },
+    "subClasses" : [ "27" ],
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "109" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000016",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000016",
+      "undefined" : "catalysed Haber Bosch reaction"
+    },
+    "intersection" : [ "69" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "71",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/iupac-license",
+        "type" : "iri"
+      } ],
+      "AFX_0002865" : [ {
+        "identifier" : "AFX_0002865",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi.owl",
+        "type" : "iri"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/molecular-scale",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "molecular entity",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/iupac-copyright",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity. [IUPAC]",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "PAC, 1994, 66, 1077. (Glossary of terms used in physical organic chemistry (IUPAC Recommendations 1994)) on page 1142",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:23367",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "AFX_0002796" : [ {
+        "identifier" : "AFX_0002796",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/ontologies/result#AFR_0001222",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_23367",
+      "undefined" : "molecular entity"
+    },
+    "subClasses" : [ "6", "96" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "10", "75" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000361",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "batch role",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "lot role",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "lot",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "batch",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Batch role is a product role of a portion of material that is intended to have uniform character and quality, within specified limits, and is produced according to a single manufacturing order during the same cycle of manufacture. [Allotrope, CFR21]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000361"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000360",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "product role",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "product",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "chemical product",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A role of a material that is intended and desired to be  produced in a synthesis. [Allotrope]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000360"
+    },
+    "subClasses" : [ "118" ],
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_17997",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An elemental molecule consisting of two trivalently-bonded nitrogen atoms.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:17997",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:43128",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13388",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:7593",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:14660",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:25365",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_17997",
+      "undefined" : "dinitrogen"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000043",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000043",
+        "undefined" : "Sub_N2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:33579",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_33579",
+      "undefined" : "main group molecular entity"
+    },
+    "subClasses" : [ "66" ],
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000001",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000001",
+      "undefined" : "process mixture"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000024",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000024",
+        "undefined" : "EductMixture_4"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000023",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000023",
+        "undefined" : "EductMixture_3"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000022",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000022",
+        "undefined" : "EductMixture_2"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000021",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000021",
+        "undefined" : "EductMixture_1"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000032",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This set of components, which serve as an example for a set of components which would occur after a methanation reaction as products"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000032",
+        "undefined" : "ProductComponentSet_3"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000031",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000031",
+        "undefined" : "ProductComponentSet_2"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000030",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000030",
+        "undefined" : "ProductComponentSet_1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000249",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "ingredient role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Ingredient is a role of material that is used in a material combining process to produce a new material. [Allotrope]",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "ingredient",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000249"
+    },
+    "subClasses" : [ "102" ],
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_16134",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:16134",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44269",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:22533",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:7434",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44404",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13405",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13406",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:44284",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13407",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13771",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_16134",
+      "undefined" : "ammonia"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000044",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000044",
+        "undefined" : "Sub_NH4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/OBI_0000086",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "AFX_0002865" : [ {
+        "identifier" : "AFX_0002865",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/obi.owl",
+        "type" : "iri"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "reagent role",
+        "type" : "label"
+      } ],
+      "AFX_0002809" : [ {
+        "identifier" : "AFX_0002809",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/CHEBI_33893",
+        "type" : "iri"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "reagent",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer. [OBI]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OBI_0000086"
+    },
+    "subClasses" : [ "113", "111", "116", "101" ],
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_18276",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An elemental molecule consisting of two hydrogens joined by a single bond.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:18276",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:25363",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:13350",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:5785",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_18276",
+      "undefined" : "dihydrogen"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000041",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000041",
+        "undefined" : "Sub_H2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000017",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000017",
+      "undefined" : "realizable entity"
+    },
+    "subClasses" : [ "28" ],
+    "comment" : {
+      "en" : "Semantic artefact of the BFO class 'realizable entity' (http://purl.obolibrary.org/obo/BFO_0000017) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000015",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "BFO_0000180" : [ {
+        "identifier" : "BFO_0000180",
+        "language" : "undefined",
+        "value" : "Process",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of cell-division, \\ a beating of the heart",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of meiosis",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the flight of a bird",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "your process of aging.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the course of a disease",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of sleeping",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the life of an organism",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/bfo.owl",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)",
+        "type" : "label"
+      } ],
+      "BFO_0000179" : [ {
+        "identifier" : "BFO_0000179",
+        "language" : "undefined",
+        "value" : "process",
+        "type" : "label"
+      } ],
+      "IAO_0000602" : [ {
+        "identifier" : "IAO_0000602",
+        "language" : "undefined",
+        "value" : "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] ",
+        "type" : "label"
+      } ],
+      "IAO_0010000" : [ {
+        "identifier" : "IAO_0010000",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/bfo/axiom/083-003",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000015",
+      "en" : "process"
+    },
+    "subClasses" : [ "107", "104" ],
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000040",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000040",
+      "en" : "material entity"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000019",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000019",
+        "undefined" : "CatalystSample_2"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000018",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000018",
+        "undefined" : "CatalystSample_1"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000055",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000055",
+        "undefined" : "ReactorMaterial_1"
+      }
+    } ],
+    "subClasses" : [ "72", "75" ],
+    "comment" : {
+      "en" : "Semantic artefact of the BFO class 'Material Entity' (http://purl.obolibrary.org/obo/BFO_0000040) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000217",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/iupac-license",
+        "type" : "iri"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "AFX_0002798" : [ {
+        "identifier" : "AFX_0002798",
+        "language" : "undefined",
+        "value" : "false",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/iupac-copyright",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "catalyst role",
+        "type" : "label"
+      } ],
+      "AFX_0002809" : [ {
+        "identifier" : "AFX_0002809",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/CHEBI_35223",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A catalyst role is a reagent role of a substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction; the process is called catalysis. The catalyst is both a reactant and product of the reaction. [IUPAC]",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "catalyst",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "PAC, 1996, 68, 155 (Glossary of terms used in chemical kinetics, including reaction dynamics.)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000217"
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/MOP_0000543",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0001-5985-7429",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A process in which at least one of the participants is a molecule.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "RXNO",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "MOP:0000543",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOP_0000543",
+      "undefined" : "molecular process"
+    },
+    "subClasses" : [ "31" ],
+    "comment" : {
+      "undefined" : "TODO: needs work, formal definition, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_28112",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Chemical element (nickel group element atom) with atomic number 28.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:28112",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ],
+      "hasAlternativeId" : [ {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:7552",
+        "type" : "label"
+      }, {
+        "identifier" : "hasAlternativeId",
+        "language" : "undefined",
+        "value" : "CHEBI:25515",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_28112",
+      "undefined" : "nickel atom"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000045",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "labels" : {
+        "IRI-based" : "reac4cat_000045",
+        "undefined" : "Sub_Ni"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_60003",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:60003",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_60003",
+      "undefined" : "pure substance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:24431",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_24431",
+      "undefined" : "chemical entity"
+    },
+    "subClasses" : [ "9", "7", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_60004",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:60004",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_60004",
+      "undefined" : "mixture"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "134",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A molecular entity that contains no carbon.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:24835",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_24835",
+      "undefined" : "inorganic molecular entity"
+    },
+    "subClasses" : [ "25" ],
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/process#AFP_0003711",
+    "baseIri" : "http://purl.allotrope.org/ontologies/process",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A chemical reaction is a process that results in the interconversion of chemical species. [IUPAC]",
+        "type" : "label"
+      } ],
+      "IAO_0000412" : [ {
+        "identifier" : "IAO_0000412",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/ontologies/process#AFP_0003711",
+        "type" : "label"
+      } ],
+      "alternativeLabel" : [ {
+        "identifier" : "alternativeLabel",
+        "language" : "undefined",
+        "value" : "reaction",
+        "type" : "label"
+      }, {
+        "identifier" : "alternativeLabel",
+        "language" : "undefined",
+        "value" : "chemical reaction",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFP_0003711",
+      "undefined" : "chemical reaction (molecular)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "3",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000344",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "synthesis role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A synthesis role is a role of a material that is participating in a synthesis (material conversion) process. [Allotrope]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000344"
+    },
+    "subClasses" : [ "94", "86", "89" ],
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_52625",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:52625",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_52625",
+      "undefined" : "inorganic hydroxy compound"
+    },
+    "subClasses" : [ "24" ],
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000229",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "reaction intermediate role",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "intermediate reagent role",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "intermediate",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "intermedate reagent role",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "intermediate role",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "reaction intermediate",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Intermediate role is a role of material that is formed from reactants (or preceding intermediates) and reacts further to give the directly observed products of a chemical reaction. [Wikipedia]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000229"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_30682",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An iron group element atom that has formula Ru.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:30682",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_30682",
+      "undefined" : "ruthenium atom"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000047",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "en" : "Intended only as an example of adding new individuals to the ontology"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000047",
+        "undefined" : "Sub_Ru"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "23", "18" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/CHEBI_138675",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa).",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "chebi_ontology",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "CHEBI:138675",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CHEBI_138675",
+      "undefined" : "gas molecular entity"
+    },
+    "subClasses" : [ "133", "135", "90", "65", "128" ],
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://purl.allotrope.org/ontologies/role#AFRL_0000231",
+    "baseIri" : "http://purl.allotrope.org/ontologies/role",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/aft",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "reactant role",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "starting material",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "reactant",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Reactant role is a role of a chemical entity that is present at the start of a reaction. [Allotrope]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AFRL_0000231"
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000074",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reac4cat_000074",
+      "undefined" : "reaction role"
+    },
+    "individuals" : [ {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000073",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "undefined" : "This individual models the reaction role of the methanation reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000073",
+        "undefined" : "MethanationReacRole_Ind"
+      }
+    }, {
+      "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000072",
+      "baseIri" : "https://nfdi4cat.org/ontologies",
+      "comment" : {
+        "undefined" : "This individual models the reaction role of the Haber Bosch reaction"
+      },
+      "labels" : {
+        "IRI-based" : "reac4cat_000072",
+        "undefined" : "HaberBoschReacRole_Ind"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "27" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000058",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000058",
+      "en" : "isCatalystOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "2"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000056",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000056",
+      "en" : "hasReactionVessel"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0002502",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000117" : [ {
+        "identifier" : "IAO_0000117",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-6601-2165",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/BFO_0000169",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0002502",
+      "undefined" : "depends on"
+    },
+    "domain" : "3",
+    "subproperty" : [ "17" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "16"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "3",
+    "subproperty" : [ "32", "2", "33", "34" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000062",
+    "inverse" : "36",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000062",
+      "undefined" : "hasReactionComponent"
+    },
+    "domain" : "3",
+    "subproperty" : [ "37", "38", "39", "40" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "15",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000053",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "undefined",
+        "value" : "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist. [RO]",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/relation",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "bearer of",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "is bearer of",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "this vase is bearer of this fragility",
+        "type" : "label"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "this apple is bearer of this red color",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000053"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "subproperty" : [ "43" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000060",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000060",
+      "en" : "isReactionRoleOf"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "44"
+  }, {
+    "range" : "15",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "15",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "23",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000065",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000065",
+      "undefined" : "isProductComponentOf"
+    },
+    "superproperty" : [ "36" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000052",
+    "inverse" : "33",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000111" : [ {
+        "identifier" : "IAO_0000111",
+        "language" : "en",
+        "value" : "inheres in",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this red color is a characteristic of this apple",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this fragility is a characteristic of this vase",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.",
+        "type" : "label"
+      } ],
+      "RO_0001900" : [ {
+        "identifier" : "RO_0001900",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/RO_0001901",
+        "type" : "iri"
+      } ],
+      "IAO_0000118" : [ {
+        "identifier" : "IAO_0000118",
+        "language" : "en",
+        "value" : "inheres_in",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000052",
+      "en" : "characteristic of"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "3",
+    "subproperty" : [ "51" ],
+    "comment" : {
+      "undefined" : "Note that this relation was previously called \"inheres in\", but was changed to be called \"characteristic of\" because BFO2 uses \"inheres in\" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000064",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000064",
+      "undefined" : "isCatalystSampleComponentOf"
+    },
+    "superproperty" : [ "36" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "range" : "47",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000063",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000063",
+      "undefined" : "isReactionComponentOf"
+    },
+    "domain" : "3",
+    "subproperty" : [ "56", "57", "49", "53" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "36"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000048",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000048",
+      "en" : "hasReactionVesselMaterial"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000051",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000111" : [ {
+        "identifier" : "IAO_0000111",
+        "language" : "en",
+        "value" : "has part",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this year has part this day (occurrent parthood)",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "my body has part my brain (continuant parthood, two material entities)",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a core relation that holds between a whole and its part",
+        "type" : "label"
+      } ],
+      "RO_0001900" : [ {
+        "identifier" : "RO_0001900",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/RO_0001901",
+        "type" : "iri"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'.",
+        "type" : "label"
+      } ],
+      "IAO_0000118" : [ {
+        "identifier" : "IAO_0000118",
+        "language" : "en",
+        "value" : "has_part",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/valid_for_go_ontology",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/valid_for_gocam",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000051",
+      "en" : "has part"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "3",
+    "attributes" : [ "object", "transitive", "external" ],
+    "id" : "62"
+  }, {
+    "range" : "30",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "30",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "69",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "75",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "75",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "1",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "20",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000054",
+    "inverse" : "56",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000054",
+      "undefined" : "hasReactorVesselComponent"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000053",
+    "inverse" : "53",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000053",
+      "undefined" : "hasCatalystSampleComponent"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
+  }, {
+    "range" : "75",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000052",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000052",
+      "en" : "hasCatalystSample"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "27",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "27",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "10",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "27",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "96",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "73",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0002131",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "x overlaps y if and only if there exists some z such that x has part z and z part of y",
+        "type" : "label"
+      } ],
+      "RO_0001900" : [ {
+        "identifier" : "RO_0001900",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/RO_0001901",
+        "type" : "iri"
+      } ],
+      "IAO_0000114" : [ {
+        "identifier" : "IAO_0000114",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/IAO_0000125",
+        "type" : "iri"
+      } ],
+      "IAO_0000424" : [ {
+        "identifier" : "IAO_0000424",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/valid_for_gocam",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0002131",
+      "en" : "overlaps"
+    },
+    "superproperty" : [ "98" ],
+    "domain" : "3",
+    "subproperty" : [ "62" ],
+    "attributes" : [ "object", "symmetric", "external" ],
+    "id" : "63"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "104",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "79",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "79",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "109",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "102",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "102",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "102",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "86",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "7",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "94",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "6",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000015",
+    "inverse" : "44",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "This object property should be a subclass of 'has role' http://purl.obolibrary.org/obo/RO_0000087 (or 'has chemical role' http://purl.obolibrary.org/obo/RO_0002262).\nHowever, due to the inverse relation 'characteristic of' http://purl.obolibrary.org/obo/RO_0000052 being a functional relation, the intended reasoning leads to an unwanted inference between individuals. \nThis unwanted inference, in which all Individuals with the property 'has role' are set equivalent to each other, is based on the 'has role' relation pointing to a role bearing individual. [AB]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reac4cat_000015",
+      "undefined" : "hasReactionRole"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000014",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "reac4cat_000014",
+      "undefined" : "hasMeanReactionTemperature"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000013",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "reac4cat_000013",
+      "undefined" : "hasMeanReactionPressure"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000012",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "reac4cat_000012",
+      "undefined" : "measured_reaction_velocity"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000004",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000004",
+      "undefined" : "hasComponent"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "transitive", "external" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000003",
+    "inverse" : "2",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000003",
+      "undefined" : "hasCatalyst"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000008",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000008",
+      "undefined" : "hasProductComponentSet"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000007",
+    "inverse" : "49",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000007",
+      "undefined" : "hasProductComponent"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000006",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000006",
+      "undefined" : "hasInitialMixture"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000005",
+    "inverse" : "57",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000005",
+      "undefined" : "hasEductComponent"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000009",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000009",
+      "undefined" : "isEductComponentOf"
+    },
+    "superproperty" : [ "36" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000081",
+    "inverse" : "43",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "134",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this investigator role is a role of this person",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.",
+        "type" : "label"
+      } ],
+      "IAO_0000118" : [ {
+        "identifier" : "IAO_0000118",
+        "language" : "en",
+        "value" : "role_of",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000118",
+        "language" : "en",
+        "value" : "is role of",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000081",
+      "en" : "role of"
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "28",
+    "comment" : {
+      "undefined" : "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "51"
+  }, {
+    "range" : "66",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "28",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "undefined",
+        "value" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.  [RO]",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/relation",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "has role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence [RO]",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "this person has role this investigator role (more colloquially: this person has this role of investigator) [RO]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000087"
+    },
+    "superproperty" : [ "33" ],
+    "domain" : "134",
+    "attributes" : [ "object", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000011",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000011",
+      "undefined" : "isCatalyzedBy"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "137"
+  }, {
+    "range" : "66",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "66",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "66",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "66",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0002323",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000232" : [ {
+        "identifier" : "IAO_0000232",
+        "language" : "undefined",
+        "value" : "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A mereological relationship or a topological relationship",
+        "type" : "label"
+      } ],
+      "RO_0001900" : [ {
+        "identifier" : "RO_0001900",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/RO_0001901",
+        "type" : "iri"
+      } ],
+      "IAO_0000117" : [ {
+        "identifier" : "IAO_0000117",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-6601-2165",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0002323",
+      "en" : "mereotopologically related to"
+    },
+    "domain" : "3",
+    "subproperty" : [ "63" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "98"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "9",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "13",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "18",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "89",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "undefined",
+        "value" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.  [RO]",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.allotrope.org/voc/afo/REC/2021/09/relation",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "undefined",
+        "value" : "has role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence [RO]",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "this person has role this investigator role (more colloquially: this person has this role of investigator) [RO]",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000087"
+    },
+    "superproperty" : [ "33" ],
+    "domain" : "71",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000069",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000069",
+      "undefined" : "isReactionVesselComponentOf"
+    },
+    "superproperty" : [ "36" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://nfdi4cat.org/ontologies/reac4cat_000067",
+    "baseIri" : "https://nfdi4cat.org/ontologies",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reac4cat_000067",
+      "undefined" : "isPotentiallyCatalysedBy"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0002314",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "3",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w.",
+        "type" : "label"
+      } ],
+      "RO_0001900" : [ {
+        "identifier" : "RO_0001900",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/RO_0001901",
+        "type" : "iri"
+      } ],
+      "IAO_0000117" : [ {
+        "identifier" : "IAO_0000117",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-6601-2165",
+        "type" : "iri"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "undefined",
+        "value" : "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of",
+        "type" : "label"
+      } ],
+      "IAO_0000119" : [ {
+        "identifier" : "IAO_0000119",
+        "language" : "undefined",
+        "value" : "http://www.ncbi.nlm.nih.gov/pubmed/20064205",
+        "type" : "iri"
+      } ],
+      "IAO_0000118" : [ {
+        "identifier" : "IAO_0000118",
+        "language" : "undefined",
+        "value" : "inheres in part of",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/ro/docs/reflexivity/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0002314",
+      "en" : "characteristic of part of"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "3",
+    "subproperty" : [ "50" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  } ]
+}

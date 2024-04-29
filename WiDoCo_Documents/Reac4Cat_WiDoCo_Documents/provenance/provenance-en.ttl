@@ -1,0 +1,18 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://nfdi4cat.org/ontologies/reac4cat_with_examples> a prov:Entity;
+	 dc:title "Reaction Ontology for catalysis-related Experiments";
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-4620-8248>;
+	 dc:creator <https://orcid.org/0000-0003-4620-8248>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-5886-7860>;
+	 dc:creator <https://orcid.org/0000-0001-5886-7860>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://nfdi4cat.org/ontologies/reac4cat_with_examples>;
+	 prov:wasGeneratedAt "26.04.2024";
+.
+:agent0 a prov:Agent; foaf:name "Alexander Behr".
+:agent1 a prov:Agent; foaf:name "Hendrik Borgelt".

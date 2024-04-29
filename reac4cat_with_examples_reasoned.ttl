@@ -1,0 +1,1947 @@
+@prefix : <http://www.semanticweb.org/smhhborg/ontologies/2024/3/untitled-ontology-124#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/smhhborg/ontologies/2024/3/untitled-ontology-124> .
+
+<http://www.semanticweb.org/smhhborg/ontologies/2024/3/untitled-ontology-124> rdf:type owl:Ontology ;
+                                                                               <http://purl.obolibrary.org/obo/IAO_0000116> """Reused Ontologies: [Alexander Behr]
+AFO
+BFO
+RXNO
+MOP
+Chebi
+RO
+Artifacts from other OBO ontologies might occur due to cross importing from some of the imported OBO Ontologies."""@en ;
+                                                                               <http://purl.org/dc/elements/1.1/contributor> "Alexander Behr" ,
+                                                                                                                             "Hendrik Borgelt" ;
+                                                                               <http://purl.org/dc/terms/hasPart> <http://purl.allotrope.org/voc/afo/merged/REC/2023/09/merged-without-qudt-and-inferred.ttl> ,
+                                                                                                                  <http://purl.obolibrary.org/obo/chebi.owl> ,
+                                                                                                                  <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ,
+                                                                                                                  <https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl> ,
+                                                                                                                  <https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl> ,
+                                                                                                                  "http://purl.obolibrary.org/obo/ro.owl" ;
+                                                                               <http://purl.org/dc/terms/license> <https://creativecommons.org/public-domain/cc0/> ;
+                                                                               rdfs:seeAlso <https://nfdi4cat.org/en/> ;
+                                                                               <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AleSteB/Reac4Cat> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.allotrope.org/ontologies/property#AFX_0002796
+<http://purl.allotrope.org/ontologies/property#AFX_0002796> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.allotrope.org/ontologies/property#AFX_0002798
+<http://purl.allotrope.org/ontologies/property#AFX_0002798> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.allotrope.org/ontologies/property#AFX_0002809
+<http://purl.allotrope.org/ontologies/property#AFX_0002809> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.allotrope.org/ontologies/property#AFX_0002818
+<http://purl.allotrope.org/ontologies/property#AFX_0002818> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.allotrope.org/ontologies/property#AFX_0002865
+<http://purl.allotrope.org/ontologies/property#AFX_0002865> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000179
+<http://purl.obolibrary.org/obo/BFO_0000179> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000180
+<http://purl.obolibrary.org/obo/BFO_0000180> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000112
+<http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000116
+<http://purl.obolibrary.org/obo/IAO_0000116> rdf:type owl:AnnotationProperty ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
+                                             rdfs:label "editor note"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000232
+<http://purl.obolibrary.org/obo/IAO_0000232> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000412
+<http://purl.obolibrary.org/obo/IAO_0000412> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000424
+<http://purl.obolibrary.org/obo/IAO_0000424> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000600
+<http://purl.obolibrary.org/obo/IAO_0000600> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000602
+<http://purl.obolibrary.org/obo/IAO_0000602> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0010000
+<http://purl.obolibrary.org/obo/IAO_0010000> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001900
+<http://purl.obolibrary.org/obo/RO_0001900> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/charge
+<http://purl.obolibrary.org/obo/chebi/charge> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/formula
+<http://purl.obolibrary.org/obo/chebi/formula> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/inchi
+<http://purl.obolibrary.org/obo/chebi/inchi> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/inchikey
+<http://purl.obolibrary.org/obo/chebi/inchikey> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/mass
+<http://purl.obolibrary.org/obo/chebi/mass> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/monoisotopicmass
+<http://purl.obolibrary.org/obo/chebi/monoisotopicmass> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/chebi/smiles
+<http://purl.obolibrary.org/obo/chebi/smiles> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/dcam/rangeIncludes
+<http://purl.org/dc/dcam/rangeIncludes> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty ;
+                                       <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
+                                       rdfs:comment "An account of the resource."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                       rdfs:label "Description"@en .
+
+
+###  http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> rdf:type owl:AnnotationProperty ;
+                                   <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of."@en ;
+                                   rdfs:comment "A related resource that is included either physically or logically in the described resource."@en ;
+                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                   rdfs:label "Has Part"@en .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty ;
+                                   <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/LicenseDocument> ;
+                                   <http://purl.org/dc/terms/description> "Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided."@en ;
+                                   rdfs:comment "A legal document giving official permission to do something with the resource."@en ;
+                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                   rdfs:label "License"@en .
+
+
+###  http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty ;
+                                  <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system."@en ;
+                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  rdfs:label "Source"@en .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#id
+<http://www.geneontology.org/formats/oboInOwl#id> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#inSubset
+<http://www.geneontology.org/formats/oboInOwl#inSubset> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel
+<http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#editorialNote
+<http://www.w3.org/2004/02/skos/core#editorialNote> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000051
+<http://purl.obolibrary.org/obo/BFO_0000051> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002131> ,
+                                                                [ owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002131>
+                                                                ] ;
+                                             rdf:type owl:TransitiveProperty ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "my body has part my brain (continuant parthood, two material entities)"@en ,
+                                                                                          "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en ,
+                                                                                          "this year has part this day (occurrent parthood)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "a core relation that holds between a whole and its part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."@en ,
+                                                                                          "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en ,
+                                                                                          """Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."""@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "has_part"@en ;
+                                             <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> ,
+                                                                                                     <http://purl.obolibrary.org/obo/valid_for_go_ontology> ,
+                                                                                                     <http://purl.obolibrary.org/obo/valid_for_gocam> ;
+                                             rdfs:label "has part"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000052
+<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002314> ;
+                                            owl:inverseOf <http://purl.obolibrary.org/obo/RO_0000053> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000111> "inheres in"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000112> "this fragility is a characteristic of this vase"@en ,
+                                                                                         "this red color is a characteristic of this apple"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "inheres_in"@en ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            rdfs:comment "Note that this relation was previously called \"inheres in\", but was changed to be called \"characteristic of\" because BFO2 uses \"inheres in\" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing." ;
+                                            rdfs:label "characteristic of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000053
+<http://purl.obolibrary.org/obo/RO_0000053> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ,
+                                                               [ owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002314>
+                                                               ] ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]" ;
+                                            rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/relation> ;
+                                            <http://www.w3.org/2004/02/skos/core#altLabel> "is bearer of" ;
+                                            <http://www.w3.org/2004/02/skos/core#definition> "A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence. [RO]" ;
+                                            <http://www.w3.org/2004/02/skos/core#editorialNote> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist. [RO]" ;
+                                            <http://www.w3.org/2004/02/skos/core#example> "this apple is bearer of this red color" ,
+                                                                                          "this vase is bearer of this fragility" ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "bearer of" .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000081
+<http://purl.obolibrary.org/obo/RO_0000081> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0000052> ,
+                                                               [ owl:inverseOf <http://purl.obolibrary.org/obo/RO_0000053>
+                                                               ] ;
+                                            owl:inverseOf <http://purl.obolibrary.org/obo/RO_0000087> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000112> "this investigator role is a role of this person"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000116> "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "is role of"@en ,
+                                                                                         "role_of"@en ;
+                                            rdfs:comment "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." ;
+                                            rdfs:label "role of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000087
+<http://purl.obolibrary.org/obo/RO_0000087> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0000053> ,
+                                                               [ owl:inverseOf <http://purl.obolibrary.org/obo/RO_0000052>
+                                                               ] ;
+                                            rdfs:range <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                            rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/relation> ;
+                                            <http://www.w3.org/2004/02/skos/core#definition> "A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence [RO]" ;
+                                            <http://www.w3.org/2004/02/skos/core#editorialNote> "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.  [RO]" ;
+                                            <http://www.w3.org/2004/02/skos/core#example> "this person has role this investigator role (more colloquially: this person has this role of investigator) [RO]" ;
+                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "has role" .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002131
+<http://purl.obolibrary.org/obo/RO_0002131> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002323> ,
+                                                               [ owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002323>
+                                                               ] ;
+                                            owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002131> ;
+                                            rdf:type owl:SymmetricProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "x overlaps y if and only if there exists some z such that x has part z and z part of y" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000424> "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> ,
+                                                                                                    <http://purl.obolibrary.org/obo/valid_for_gocam> ,
+                                                                                                    <http://purl.obolibrary.org/obo/ro/subsets#ro-eco> ;
+                                            rdfs:label "overlaps"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002314
+<http://purl.obolibrary.org/obo/RO_0002314> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/RO_0002502> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000116> "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "inheres in part of" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000119> <http://www.ncbi.nlm.nih.gov/pubmed/20064205> ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            rdfs:label "characteristic of part of"@en ;
+                                            rdfs:seeAlso <http://purl.obolibrary.org/obo/ro/docs/reflexivity/> .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002323
+<http://purl.obolibrary.org/obo/RO_0002323> rdf:type owl:ObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A mereological relationship or a topological relationship" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            rdfs:label "mereotopologically related to"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002502
+<http://purl.obolibrary.org/obo/RO_0002502> rdf:type owl:ObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> ;
+                                            rdfs:label "depends on" ;
+                                            rdfs:seeAlso <http://purl.obolibrary.org/obo/BFO_0000169> .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
+                      rdf:type owl:SymmetricProperty ,
+                               owl:TransitiveProperty .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000003
+<https://nfdi4cat.org/ontologies/reac4cat_000003> rdf:type owl:ObjectProperty ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000058> ;
+                                                  rdfs:label "hasCatalyst" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000004
+<https://nfdi4cat.org/ontologies/reac4cat_000004> rdf:type owl:ObjectProperty ,
+                                                           owl:TransitiveProperty ;
+                                                  rdfs:label "hasComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000005
+<https://nfdi4cat.org/ontologies/reac4cat_000005> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000062> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000063>
+                                                                     ] ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000009> ;
+                                                  owl:propertyChainAxiom ( <https://nfdi4cat.org/ontologies/reac4cat_000006>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000004>
+                                                                         ) ;
+                                                  rdfs:label "hasEductComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000006
+<https://nfdi4cat.org/ontologies/reac4cat_000006> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "hasInitialMixture" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000007
+<https://nfdi4cat.org/ontologies/reac4cat_000007> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000062> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000063>
+                                                                     ] ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000065> ;
+                                                  owl:propertyChainAxiom ( <https://nfdi4cat.org/ontologies/reac4cat_000008>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000004>
+                                                                         ) ;
+                                                  rdfs:label "hasProductComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000008
+<https://nfdi4cat.org/ontologies/reac4cat_000008> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "hasProductComponentSet" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000009
+<https://nfdi4cat.org/ontologies/reac4cat_000009> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000063> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                     ] ;
+                                                  rdfs:label "isEductComponentOf" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000011
+<https://nfdi4cat.org/ontologies/reac4cat_000011> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "isCatalyzedBy" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000015
+<https://nfdi4cat.org/ontologies/reac4cat_000015> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000060> ;
+                                                  rdfs:label "hasReactionRole" ;
+                                                  <http://www.w3.org/2004/02/skos/core#editorialNote> """This object property should be a subclass of 'has role' http://purl.obolibrary.org/obo/RO_0000087 (or 'has chemical role' http://purl.obolibrary.org/obo/RO_0002262).
+However, due to the inverse relation 'characteristic of' http://purl.obolibrary.org/obo/RO_0000052 being a functional relation, the intended reasoning leads to an unwanted inference between individuals. 
+This unwanted inference, in which all Individuals with the property 'has role' are set equivalent to each other, is based on the 'has role' relation pointing to a role bearing individual. [AB]"""@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000048
+<https://nfdi4cat.org/ontologies/reac4cat_000048> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "hasReactionVesselMaterial"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000052
+<https://nfdi4cat.org/ontologies/reac4cat_000052> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdfs:label "hasCatalystSample"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000053
+<https://nfdi4cat.org/ontologies/reac4cat_000053> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000062> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000063>
+                                                                     ] ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000064> ;
+                                                  owl:propertyChainAxiom ( <https://nfdi4cat.org/ontologies/reac4cat_000056>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000052>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000004>
+                                                                         ) ;
+                                                  rdfs:label "hasCatalystSampleComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000054
+<https://nfdi4cat.org/ontologies/reac4cat_000054> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000062> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000063>
+                                                                     ] ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000069> ;
+                                                  owl:propertyChainAxiom ( <https://nfdi4cat.org/ontologies/reac4cat_000056>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000048>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000004>
+                                                                         ) ;
+                                                  rdfs:label "hasReactorVesselComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000056
+<https://nfdi4cat.org/ontologies/reac4cat_000056> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "hasReactionVessel"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000058
+<https://nfdi4cat.org/ontologies/reac4cat_000058> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdfs:label "isCatalystOf"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000060
+<https://nfdi4cat.org/ontologies/reac4cat_000060> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "isReactionRoleOf"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000062
+<https://nfdi4cat.org/ontologies/reac4cat_000062> rdf:type owl:ObjectProperty ;
+                                                  owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000063> ;
+                                                  rdfs:label "hasReactionComponent" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000063
+<https://nfdi4cat.org/ontologies/reac4cat_000063> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "isReactionComponentOf" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000064
+<https://nfdi4cat.org/ontologies/reac4cat_000064> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000063> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                     ] ;
+                                                  rdfs:label "isCatalystSampleComponentOf" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000065
+<https://nfdi4cat.org/ontologies/reac4cat_000065> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000063> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                     ] ;
+                                                  rdfs:label "isProductComponentOf" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000067
+<https://nfdi4cat.org/ontologies/reac4cat_000067> rdf:type owl:ObjectProperty ;
+                                                  owl:propertyChainAxiom ( <https://nfdi4cat.org/ontologies/reac4cat_000015>
+                                                                           <https://nfdi4cat.org/ontologies/reac4cat_000011>
+                                                                         ) ;
+                                                  rdfs:label "isPotentiallyCatalysedBy" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000069
+<https://nfdi4cat.org/ontologies/reac4cat_000069> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf <https://nfdi4cat.org/ontologies/reac4cat_000063> ,
+                                                                     [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                     ] ;
+                                                  rdfs:label "isReactionVesselComponentOf" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000013
+<https://nfdi4cat.org/ontologies/reac4cat_000013> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:label "hasMeanReactionPressure" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000014
+<https://nfdi4cat.org/ontologies/reac4cat_000014> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:label "hasMeanReactionTemperature" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.allotrope.org/ontologies/process#AFP_0003711
+<http://purl.allotrope.org/ontologies/process#AFP_0003711> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                                           <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical reaction is a process that results in the interconversion of chemical species. [IUPAC]" ;
+                                                           <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.allotrope.org/ontologies/process#AFP_0003711" ;
+                                                           <http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel> "chemical reaction" ,
+                                                                                                                                        "reaction" ;
+                                                           rdfs:label "chemical reaction (molecular)" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000217
+<http://purl.allotrope.org/ontologies/role#AFRL_0000217> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000086> ;
+                                                         <http://purl.allotrope.org/ontologies/property#AFX_0002798> "false"^^xsd:boolean ;
+                                                         <http://purl.allotrope.org/ontologies/property#AFX_0002809> <http://purl.obolibrary.org/obo/CHEBI_35223> ;
+                                                         <http://purl.org/dc/terms/license> <http://purl.allotrope.org/voc/iupac-license> ;
+                                                         <http://purl.org/dc/terms/rights> <http://purl.allotrope.org/voc/iupac-copyright> ;
+                                                         <http://purl.org/dc/terms/source> "PAC, 1996, 68, 155 (Glossary of terms used in chemical kinetics, including reaction dynamics.)" ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "catalyst" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A catalyst role is a reagent role of a substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction; the process is called catalysis. The catalyst is both a reactant and product of the reaction. [IUPAC]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "catalyst role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000229
+<http://purl.allotrope.org/ontologies/role#AFRL_0000229> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000086> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "intermedate reagent role" ,
+                                                                                                        "intermediate" ,
+                                                                                                        "intermediate reagent role" ,
+                                                                                                        "intermediate role" ,
+                                                                                                        "reaction intermediate" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Intermediate role is a role of material that is formed from reactants (or preceding intermediates) and reacts further to give the directly observed products of a chemical reaction. [Wikipedia]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "reaction intermediate role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000231
+<http://purl.allotrope.org/ontologies/role#AFRL_0000231> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000086> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "reactant" ,
+                                                                                                        "starting material" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Reactant role is a role of a chemical entity that is present at the start of a reaction. [Allotrope]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "reactant role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000249
+<http://purl.allotrope.org/ontologies/role#AFRL_0000249> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.allotrope.org/ontologies/role#AFRL_0000344> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "ingredient" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Ingredient is a role of material that is used in a material combining process to produce a new material. [Allotrope]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ingredient role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000344
+<http://purl.allotrope.org/ontologies/role#AFRL_0000344> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A synthesis role is a role of a material that is participating in a synthesis (material conversion) process. [Allotrope]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "synthesis role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000360
+<http://purl.allotrope.org/ontologies/role#AFRL_0000360> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.allotrope.org/ontologies/role#AFRL_0000344> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "chemical product" ,
+                                                                                                        "product" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A role of a material that is intended and desired to be  produced in a synthesis. [Allotrope]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "product role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000361
+<http://purl.allotrope.org/ontologies/role#AFRL_0000361> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.allotrope.org/ontologies/role#AFRL_0000360> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#altLabel> "batch" ,
+                                                                                                        "lot" ,
+                                                                                                        "lot role" ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "Batch role is a product role of a portion of material that is intended to have uniform character and quality, within specified limits, and is produced according to a single manufacturing order during the same cycle of manufacture. [Allotrope, CFR21]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "batch role" .
+
+
+###  http://purl.allotrope.org/ontologies/role#AFRL_0000421
+<http://purl.allotrope.org/ontologies/role#AFRL_0000421> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000086> ;
+                                                         rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "A reagent role of the material with the least mole quantity in a chemical process and as such limits the amount of product that can be formed. [Allotrope]" ;
+                                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "limiting reagent role" .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000003
+<http://purl.obolibrary.org/obo/BFO_0000003> rdf:type owl:Class ;
+                                             rdfs:comment "Semantic artefact of the BFO class 'occurent' (http://purl.obolibrary.org/obo/BFO_0000003) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en ;
+                                             rdfs:label "occurent" .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "process" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "Process" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a process of cell-division, \\ a beating of the heart"@en ,
+                                                                                          "a process of meiosis"@en ,
+                                                                                          "a process of sleeping"@en ,
+                                                                                          "the course of a disease"@en ,
+                                                                                          "the flight of a bird"@en ,
+                                                                                          "the life of an organism"@en ,
+                                                                                          "your process of aging."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000602> "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] " ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "process"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/BFO_0000015> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en ;
+   <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/083-003>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/BFO_0000015> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000602> ;
+   owl:annotatedTarget "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] " ;
+   <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/083-003>
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000017
+<http://purl.obolibrary.org/obo/BFO_0000017> rdf:type owl:Class ;
+                                             rdfs:comment "Semantic artefact of the BFO class 'realizable entity' (http://purl.obolibrary.org/obo/BFO_0000017) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en ;
+                                             rdfs:label "realizable entity" .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000023
+<http://purl.obolibrary.org/obo/BFO_0000023> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000017> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "role" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "Role" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."@en ,
+                                                                                          "the priest role"@en ,
+                                                                                          "the role of a boundary to demarcate two neighboring administrative territories"@en ,
+                                                                                          "the role of a building in serving as a military target"@en ,
+                                                                                          "the role of a stone in marking a property boundary"@en ,
+                                                                                          "the role of subject in a clinical trial"@en ,
+                                                                                          "the student role"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000600> "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000602> "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "role"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/BFO_0000023> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000600> ;
+   owl:annotatedTarget "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en ;
+   <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/BFO_0000023> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000602> ;
+   owl:annotatedTarget "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " ;
+   <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001>
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> rdf:type owl:Class ;
+                                             rdfs:comment "Semantic artefact of the BFO class 'Material Entity' (http://purl.obolibrary.org/obo/BFO_0000040) which has not been fully implemented in order to reduce the complexity and depth a full import of a Top level ontology would bring into this example"@en ;
+                                             rdfs:label "material entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_138675
+<http://purl.obolibrary.org/obo/CHEBI_138675> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33579> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa)." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:138675" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                              rdfs:label "gas molecular entity" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_15377
+<http://purl.obolibrary.org/obo/CHEBI_15377> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_52625> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms" ;
+                                             <http://purl.obolibrary.org/obo/chebi/charge> "0" ;
+                                             <http://purl.obolibrary.org/obo/chebi/formula> "H2O" ;
+                                             <http://purl.obolibrary.org/obo/chebi/inchi> "InChI=1S/H2O/h1H2" ;
+                                             <http://purl.obolibrary.org/obo/chebi/inchikey> "XLYOFNOQVPJJNP-UHFFFAOYSA-N" ;
+                                             <http://purl.obolibrary.org/obo/chebi/mass> "18.01530" ;
+                                             <http://purl.obolibrary.org/obo/chebi/monoisotopicmass> "18.01056" ;
+                                             <http://purl.obolibrary.org/obo/chebi/smiles> "[H]O[H]" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:10743" ,
+                                                                                                             "CHEBI:13352" ,
+                                                                                                             "CHEBI:27313" ,
+                                                                                                             "CHEBI:42043" ,
+                                                                                                             "CHEBI:42857" ,
+                                                                                                             "CHEBI:43228" ,
+                                                                                                             "CHEBI:44292" ,
+                                                                                                             "CHEBI:44701" ,
+                                                                                                             "CHEBI:44819" ,
+                                                                                                             "CHEBI:5585" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:15377" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "water" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_16134
+<http://purl.obolibrary.org/obo/CHEBI_16134> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_138675> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13405" ,
+                                                                                                             "CHEBI:13406" ,
+                                                                                                             "CHEBI:13407" ,
+                                                                                                             "CHEBI:13771" ,
+                                                                                                             "CHEBI:22533" ,
+                                                                                                             "CHEBI:44269" ,
+                                                                                                             "CHEBI:44284" ,
+                                                                                                             "CHEBI:44404" ,
+                                                                                                             "CHEBI:7434" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16134" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "ammonia" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_16183
+<http://purl.obolibrary.org/obo/CHEBI_16183> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_138675> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC)." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:14585" ,
+                                                                                                             "CHEBI:25220" ,
+                                                                                                             "CHEBI:6811" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16183" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "methane" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_16526
+<http://purl.obolibrary.org/obo/CHEBI_16526> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_138675> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13282" ,
+                                                                                                             "CHEBI:13283" ,
+                                                                                                             "CHEBI:13284" ,
+                                                                                                             "CHEBI:13285" ,
+                                                                                                             "CHEBI:23011" ,
+                                                                                                             "CHEBI:3283" ,
+                                                                                                             "CHEBI:48829" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16526" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "carbon dioxide" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17997
+<http://purl.obolibrary.org/obo/CHEBI_17997> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_138675> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An elemental molecule consisting of two trivalently-bonded nitrogen atoms." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13388" ,
+                                                                                                             "CHEBI:14660" ,
+                                                                                                             "CHEBI:25365" ,
+                                                                                                             "CHEBI:43128" ,
+                                                                                                             "CHEBI:7593" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17997" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "dinitrogen" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_18248
+<http://purl.obolibrary.org/obo/CHEBI_18248> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33356> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An iron group element atom that has atomic number 26." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13322" ,
+                                                                                                             "CHEBI:24872" ,
+                                                                                                             "CHEBI:5974" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18248" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "iron atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_18276
+<http://purl.obolibrary.org/obo/CHEBI_18276> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_138675> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An elemental molecule consisting of two hydrogens joined by a single bond." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:13350" ,
+                                                                                                             "CHEBI:25363" ,
+                                                                                                             "CHEBI:5785" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18276" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "dihydrogen" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_23367
+<http://purl.obolibrary.org/obo/CHEBI_23367> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                             <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                             <http://purl.allotrope.org/ontologies/property#AFX_0002796> <http://purl.allotrope.org/ontologies/result#AFR_0001222> ;
+                                             <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.obolibrary.org/obo/chebi.owl> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." ;
+                                             <http://purl.org/dc/terms/license> <http://purl.allotrope.org/voc/iupac-license> ;
+                                             <http://purl.org/dc/terms/rights> <http://purl.allotrope.org/voc/iupac-copyright> ;
+                                             <http://purl.org/dc/terms/source> "PAC, 1994, 66, 1077. (Glossary of terms used in physical organic chemistry (IUPAC Recommendations 1994)) on page 1142" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:23367" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/molecular-scale> ;
+                                             rdfs:label "molecular entity" ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity. [IUPAC]" ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "molecular entity" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_24431
+<http://purl.obolibrary.org/obo/CHEBI_24431> rdf:type owl:Class ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24431" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "chemical entity" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_24835
+<http://purl.obolibrary.org/obo/CHEBI_24835> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_23367> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A molecular entity that contains no carbon." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24835" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "inorganic molecular entity" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_27081
+<http://purl.obolibrary.org/obo/CHEBI_27081> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33521> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An element whose atom has an incomplete d sub-shell, or which can give rise to cations with an incomplete d sub-shell." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27081" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "transition element atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_28112
+<http://purl.obolibrary.org/obo/CHEBI_28112> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33362> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Chemical element (nickel group element atom) with atomic number 28." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25515" ,
+                                                                                                             "CHEBI:7552" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28112" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "nickel atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_30682
+<http://purl.obolibrary.org/obo/CHEBI_30682> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33356> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33365> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An iron group element atom that has formula Ru." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30682" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "ruthenium atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33250
+<http://purl.obolibrary.org/obo/CHEBI_33250> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical entity constituting the smallest component of an element having the chemical properties of the element." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:22671" ,
+                                                                                                             "CHEBI:23907" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33250" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33352
+<http://purl.obolibrary.org/obo/CHEBI_33352> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27081> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33352" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "manganese group element atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33356
+<http://purl.obolibrary.org/obo/CHEBI_33356> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27081> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33356" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "iron group element atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33362
+<http://purl.obolibrary.org/obo/CHEBI_33362> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27081> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33362" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "nickel group element atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33365
+<http://purl.obolibrary.org/obo/CHEBI_33365> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27081> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33365" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "platinum group metal atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33521
+<http://purl.obolibrary.org/obo/CHEBI_33521> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25217" ,
+                                                                                                             "CHEBI:6788" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33521" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "metal atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33579
+<http://purl.obolibrary.org/obo/CHEBI_33579> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_23367> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:33579" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "main group molecular entity" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_49882
+<http://purl.obolibrary.org/obo/CHEBI_49882> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33352> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A manganese group element atom that has formula Re." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:33354" ,
+                                                                                                             "CHEBI:49879" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:49882" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "rhenium atom" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_52625
+<http://purl.obolibrary.org/obo/CHEBI_52625> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24835> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:52625" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "inorganic hydroxy compound" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_59999
+<http://purl.obolibrary.org/obo/CHEBI_59999> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24431> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:59999" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "chemical substance" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_60003
+<http://purl.obolibrary.org/obo/CHEBI_60003> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_59999> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:60003" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "pure substance" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_60004
+<http://purl.obolibrary.org/obo/CHEBI_60004> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_59999> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:60004" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/chebi#3_STAR> ;
+                                             rdfs:label "mixture" .
+
+
+###  http://purl.obolibrary.org/obo/MOP_0000543
+<http://purl.obolibrary.org/obo/MOP_0000543> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A process in which at least one of the participants is a molecule." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000543" ;
+                                             rdfs:comment "TODO: needs work, formal definition, etc." ;
+                                             rdfs:label "molecular process" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/MOP_0000543> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "A process in which at least one of the participants is a molecule." ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/MOP_0000569
+<http://purl.obolibrary.org/obo/MOP_0000569> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/MOP_0000543> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The complete transfer of one or more electrons to a molecular entity." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#created_by> "batchelorc" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#creation_date> "2009-06-01T06:04:18Z" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "electronation" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000569" ;
+                                             rdfs:label "reduction" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/MOP_0000569> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "The complete transfer of one or more electrons to a molecular entity." ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AU:R05222"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/MOP_0000569> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "The complete transfer of one or more electrons to a molecular entity." ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.R05222"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/MOP_0000589
+<http://purl.obolibrary.org/obo/MOP_0000589> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/MOP_0000569> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A reduction process that involves addition of hydrogen atoms across a double bond." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#created_by> "batchelorc" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#creation_date> "2009-06-05T04:53:34Z" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "RXNO" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "MOP:0000589" ;
+                                             rdfs:label "hydrogenation" .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/MOP_0000589> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "A reduction process that involves addition of hydrogen atoms across a double bond." ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429"
+ ] .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0000086
+<http://purl.obolibrary.org/obo/OBI_0000086> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.allotrope.org/ontologies/role#AFRL_0000249> ;
+                                             <http://purl.allotrope.org/ontologies/property#AFX_0002809> <http://purl.obolibrary.org/obo/CHEBI_33893> ;
+                                             <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.obolibrary.org/obo/obi.owl> ;
+                                             rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ;
+                                             <http://www.w3.org/2004/02/skos/core#altLabel> "reagent" ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "A role inhering in a biological or chemical entity that is intended to be applied in a scientific technique to participate (or have molecular components that participate) in a chemical reaction that facilitates the generation of data about some entity distinct from the bearer, or the generation of some specified material output distinct from the bearer. [OBI]" ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "reagent role" .
+
+
+###  http://purl.obolibrary.org/obo/bfo.owl#material
+<http://purl.obolibrary.org/obo/bfo.owl#material> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
+                                                  <http://purl.allotrope.org/ontologies/property#AFX_0002818> "true"^^xsd:boolean ;
+                                                  <http://purl.allotrope.org/ontologies/property#AFX_0002865> <http://purl.allotrope.org/taxonomy> ,
+                                                                                                              <http://purl.allotrope.org/voc/afo/REC/2018/07/aft> ;
+                                                  rdfs:isDefinedBy <http://purl.allotrope.org/voc/afo/REC/2021/09/aft> ,
+                                                                   <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/portion-of-material> ,
+                                                                   <http://purl.allotrope.org/voc/afo/perspective/REC/2021/09/system> ,
+                                                                   "http://purl.allotrope.org/ontologies/material#AFM_0000275" ;
+                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "matter" ;
+                                                  <http://www.w3.org/2004/02/skos/core#definition> "A material entity that occupies space and possesses a rest mass. [Allotrope]" ;
+                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "material" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000001
+<https://nfdi4cat.org/ontologies/reac4cat_000001> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  rdfs:label "process mixture" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000016
+<https://nfdi4cat.org/ontologies/reac4cat_000016> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://nfdi4cat.org/ontologies/reac4cat_000025> ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;
+                                                                    owl:someValuesFrom <https://nfdi4cat.org/ontologies/reac4cat_000074>
+                                                                  ] ;
+                                                  rdfs:label "catalysed Haber Bosch reaction" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000017
+<https://nfdi4cat.org/ontologies/reac4cat_000017> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://nfdi4cat.org/ontologies/reac4cat_000029> ;
+                                                  rdfs:label "catalysed methanation reaction" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000025
+<https://nfdi4cat.org/ontologies/reac4cat_000025> rdf:type owl:Class ;
+                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000015> ;
+                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                             owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000072>
+                                                                                                       )
+                                                                                           ]
+                                                                      ] ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/MOP_0000589> ;
+                                                  rdfs:label "Haber Bosch reaction" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000029
+<https://nfdi4cat.org/ontologies/reac4cat_000029> rdf:type owl:Class ;
+                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000015> ;
+                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                             owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000073>
+                                                                                                       )
+                                                                                           ]
+                                                                      ] ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/MOP_0000589> ;
+                                                  rdfs:label "methanation reaction" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000049
+<https://nfdi4cat.org/ontologies/reac4cat_000049> rdf:type owl:Class ;
+                                                  rdfs:label "reaction vessel"@en .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000050
+<https://nfdi4cat.org/ontologies/reac4cat_000050> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  rdfs:label "catalyst sample" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000051
+<https://nfdi4cat.org/ontologies/reac4cat_000051> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
+                                                  rdfs:label "vessel material" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000059
+<https://nfdi4cat.org/ontologies/reac4cat_000059> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                                  rdfs:label "reaction assay" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000074
+<https://nfdi4cat.org/ontologies/reac4cat_000074> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://purl.allotrope.org/ontologies/role#AFRL_0000344> ;
+                                                  rdfs:label "reaction role" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000018
+<https://nfdi4cat.org/ontologies/reac4cat_000018> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000050> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000009> <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:label "CatalystSample_1" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000019
+<https://nfdi4cat.org/ontologies/reac4cat_000019> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000050> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  rdfs:label "CatalystSample_2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000021
+<https://nfdi4cat.org/ontologies/reac4cat_000021> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ;
+                                                  rdfs:comment "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"@en ;
+                                                  rdfs:label "EductMixture_1" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000022
+<https://nfdi4cat.org/ontologies/reac4cat_000022> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ;
+                                                  rdfs:comment "This mixture is an example mixture and models here a reactant mixture as would be used for a Haber Bosch reaction"@en ;
+                                                  rdfs:label "EductMixture_2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000023
+<https://nfdi4cat.org/ontologies/reac4cat_000023> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ;
+                                                  rdfs:comment "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"@en ;
+                                                  rdfs:label "EductMixture_3" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000024
+<https://nfdi4cat.org/ontologies/reac4cat_000024> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000018> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  rdfs:comment "This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction"@en ;
+                                                  rdfs:label "EductMixture_4" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000030
+<https://nfdi4cat.org/ontologies/reac4cat_000030> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000044> ;
+                                                  rdfs:comment "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"@en ;
+                                                  rdfs:label "ProductComponentSet_1" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000031
+<https://nfdi4cat.org/ontologies/reac4cat_000031> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000044> ;
+                                                  rdfs:comment "This set of components, which serve as an example for a set of components which would occur after a Haber Bosch reaction as products"@en ;
+                                                  rdfs:label "ProductComponentSet_2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000032
+<https://nfdi4cat.org/ontologies/reac4cat_000032> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000001> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  rdfs:comment "This set of components, which serve as an example for a set of components which would occur after a methanation reaction as products"@en ;
+                                                  rdfs:label "ProductComponentSet_3" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000033
+<https://nfdi4cat.org/ontologies/reac4cat_000033> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000003> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000543> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000569> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000589> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000025> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000059> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000005> <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000021> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000007> <https://nfdi4cat.org/ontologies/reac4cat_000044> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000030> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000015> <https://nfdi4cat.org/ontologies/reac4cat_000072> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000062> <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000044> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000067> <https://nfdi4cat.org/ontologies/reac4cat_000040> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  rdfs:comment "This is an example individual which will be inferred as Haber Bosch reaction"@en ;
+                                                  rdfs:label "Reaction_1" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000034
+<https://nfdi4cat.org/ontologies/reac4cat_000034> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000003> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000543> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000569> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000589> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000016> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000017> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000025> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000029> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000059> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000003> <https://nfdi4cat.org/ontologies/reac4cat_000040> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000005> <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000022> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000007> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000044> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000031> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000015> <https://nfdi4cat.org/ontologies/reac4cat_000072> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000073> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000053> <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000054> <https://nfdi4cat.org/ontologies/reac4cat_000040> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000056> <https://nfdi4cat.org/ontologies/reac4cat_000076> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000062> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000040> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000043> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000044> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000067> <https://nfdi4cat.org/ontologies/reac4cat_000040> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000046> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000047> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000013> 250.0 ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000014> 450.0 ;
+                                                  rdfs:comment "This is an example individual which will be inferred as Haber Bosch reaction"@en ;
+                                                  rdfs:label "Reaction_2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000035
+<https://nfdi4cat.org/ontologies/reac4cat_000035> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000003> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000543> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000569> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000589> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000029> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000059> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000005> <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000023> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000007> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000015> <https://nfdi4cat.org/ontologies/reac4cat_000073> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000062> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000067> <https://nfdi4cat.org/ontologies/reac4cat_000045> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000046> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000047> ;
+                                                  rdfs:comment "This is an example individual which will be inferred as methanation reaction"@en ;
+                                                  rdfs:label "Reaction_3" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000036
+<https://nfdi4cat.org/ontologies/reac4cat_000036> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000003> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000543> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000569> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000589> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000029> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000059> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000005> <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000023> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000007> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000015> <https://nfdi4cat.org/ontologies/reac4cat_000073> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000062> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000067> <https://nfdi4cat.org/ontologies/reac4cat_000045> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000046> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000047> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000013> 250.0 ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000014> 375.0 ;
+                                                  rdfs:comment "This is an example individual which will be inferred as methanation reaction"@en ;
+                                                  rdfs:label "Reaction_4" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000037
+<https://nfdi4cat.org/ontologies/reac4cat_000037> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000003> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000543> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000569> ,
+                                                           <http://purl.obolibrary.org/obo/MOP_0000589> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000017> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000029> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000059> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000003> <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000005> <https://nfdi4cat.org/ontologies/reac4cat_000018> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000006> <https://nfdi4cat.org/ontologies/reac4cat_000024> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000007> <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000008> <https://nfdi4cat.org/ontologies/reac4cat_000032> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000015> <https://nfdi4cat.org/ontologies/reac4cat_000073> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000062> <https://nfdi4cat.org/ontologies/reac4cat_000018> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000038> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000039> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000041> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000042> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000067> <https://nfdi4cat.org/ontologies/reac4cat_000045> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000046> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000047> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000013> 249.0 ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000014> 374.0 ;
+                                                  rdfs:comment "This is an example individual which will be inferred as methanation reaction" ;
+                                                  rdfs:label "Reaction_5" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000038
+<https://nfdi4cat.org/ontologies/reac4cat_000038> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_138675> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_16183> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33579> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000065> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:label "Sub_CH4" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000039
+<https://nfdi4cat.org/ontologies/reac4cat_000039> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_138675> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_16526> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33579> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000009> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:label "Sub_CO2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000040
+<https://nfdi4cat.org/ontologies/reac4cat_000040> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_18248> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_27081> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33250> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33356> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33521> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000058> <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000069> <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  rdfs:label "Sub_Fe" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000041
+<https://nfdi4cat.org/ontologies/reac4cat_000041> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_138675> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_18276> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33579> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000009> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:label "Sub_H2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000042
+<https://nfdi4cat.org/ontologies/reac4cat_000042> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_15377> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24835> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_52625> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000065> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:label "Sub_H2O" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000043
+<https://nfdi4cat.org/ontologies/reac4cat_000043> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_138675> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_17997> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33579> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000009> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  rdfs:label "Sub_N2" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000044
+<https://nfdi4cat.org/ontologies/reac4cat_000044> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_138675> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_16134> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_23367> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33579> ,
+                                                           <http://purl.obolibrary.org/obo/bfo.owl#material> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000065> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  rdfs:label "Sub_NH4" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000045
+<https://nfdi4cat.org/ontologies/reac4cat_000045> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_27081> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_28112> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33250> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33362> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33521> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000009> <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000058> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000063> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000064> <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  rdfs:label "Sub_Ni" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000046
+<https://nfdi4cat.org/ontologies/reac4cat_000046> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_27081> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33250> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33352> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33521> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_49882> ;
+                                                  rdfs:label "Sub_Rh" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000047
+<https://nfdi4cat.org/ontologies/reac4cat_000047> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_24431> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_27081> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_30682> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33250> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33356> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33365> ,
+                                                           <http://purl.obolibrary.org/obo/CHEBI_33521> ;
+                                                  rdfs:comment "An Individual representing a Substance consisting of Ruthenium"@en ,
+                                                               "Intended only as an example of adding new individuals to the ontology"@en ;
+                                                  rdfs:label "Sub_Ru" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000055
+<https://nfdi4cat.org/ontologies/reac4cat_000055> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000040> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000004> <https://nfdi4cat.org/ontologies/reac4cat_000040> ;
+                                                  rdfs:label "ReactorMaterial_1" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000072
+<https://nfdi4cat.org/ontologies/reac4cat_000072> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.allotrope.org/ontologies/role#AFRL_0000344> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000017> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000023> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000074> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000040> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000045> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000060> <https://nfdi4cat.org/ontologies/reac4cat_000033> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000034> ;
+                                                  rdfs:comment "This individual models the reaction role of the Haber Bosch reaction" ;
+                                                  rdfs:label "HaberBoschReacRole_Ind" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000073
+<https://nfdi4cat.org/ontologies/reac4cat_000073> rdf:type owl:NamedIndividual ,
+                                                           <http://purl.allotrope.org/ontologies/role#AFRL_0000344> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000017> ,
+                                                           <http://purl.obolibrary.org/obo/BFO_0000023> ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000074> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000011> <https://nfdi4cat.org/ontologies/reac4cat_000045> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000046> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000047> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000060> <https://nfdi4cat.org/ontologies/reac4cat_000034> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000035> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000036> ,
+                                                                                                    <https://nfdi4cat.org/ontologies/reac4cat_000037> ;
+                                                  rdfs:comment "This individual models the reaction role of the methanation reaction" ;
+                                                  rdfs:label "MethanationReacRole_Ind" .
+
+
+###  https://nfdi4cat.org/ontologies/reac4cat_000076
+<https://nfdi4cat.org/ontologies/reac4cat_000076> rdf:type owl:NamedIndividual ,
+                                                           <https://nfdi4cat.org/ontologies/reac4cat_000049> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000048> <https://nfdi4cat.org/ontologies/reac4cat_000055> ;
+                                                  <https://nfdi4cat.org/ontologies/reac4cat_000052> <https://nfdi4cat.org/ontologies/reac4cat_000019> ;
+                                                  rdfs:label "Reactor_1" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://purl.org/dc/terms/abstract> rdfs:comment "A summary of the resource."@en ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    rdfs:label "Abstract"@en .
+
+
+<http://purl.org/dc/terms/references> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By."@en ;
+                                      rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:label "References"@en .
+
+
+<http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/description> "Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided."@en ;
+                                    rdfs:comment "A related resource."@en ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    rdfs:label "Relation"@en .
+
+
+<https://nfdi4cat.org/ontologies/reac4cat_000012> rdfs:label "measured_reaction_velocity" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ owl:intersectionOf ( <https://nfdi4cat.org/ontologies/reac4cat_000025>
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                         owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                     owl:unionOf ( <http://purl.obolibrary.org/obo/BFO_0000040>
+                                                                                   <http://purl.obolibrary.org/obo/CHEBI_24431>
+                                                                                 )
+                                                                   ]
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                                    ] ;
+                                                                     owl:someValuesFrom <https://nfdi4cat.org/ontologies/reac4cat_000025>
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf <https://nfdi4cat.org/ontologies/reac4cat_000016>
+] .
+
+
+[ owl:intersectionOf ( <https://nfdi4cat.org/ontologies/reac4cat_000029>
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                         owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                     owl:unionOf ( <http://purl.obolibrary.org/obo/BFO_0000040>
+                                                                                   <http://purl.obolibrary.org/obo/CHEBI_24431>
+                                                                                 )
+                                                                   ]
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty [ owl:inverseOf <https://nfdi4cat.org/ontologies/reac4cat_000062>
+                                                                                    ] ;
+                                                                     owl:someValuesFrom <https://nfdi4cat.org/ontologies/reac4cat_000029>
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf <https://nfdi4cat.org/ontologies/reac4cat_000017>
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000005> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_16526>
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000005> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_18276>
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000007> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_15377>
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000007> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_16183>
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000015> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000073>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000005> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_17997>
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000005> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_18276>
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000007> ;
+                         owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_16134>
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000015> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000072>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000062> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000040>
+                                                        )
+                                            ]
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000067> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000040>
+                                                        )
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000040>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000062> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000045>
+                                                        )
+                                            ]
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000067> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000045>
+                                                        )
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000045>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000062> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000046>
+                                                        )
+                                            ]
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000067> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000046>
+                                                        )
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000046>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000062> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000047>
+                                                        )
+                                            ]
+                       ]
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000067> ;
+                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                              owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000047>
+                                                        )
+                                            ]
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                    owl:onProperty <https://nfdi4cat.org/ontologies/reac4cat_000003> ;
+                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                         owl:oneOf ( <https://nfdi4cat.org/ontologies/reac4cat_000047>
+                                                   )
+                                       ]
+                  ]
+] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
