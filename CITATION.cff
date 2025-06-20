@@ -3,11 +3,11 @@ message: "If you use this work, please cite the following article."
 title: "Reac4Cat-Ontology: Harnessing the Power of Ontological Description Logic in Catalysis Research as a Practical Approach to Knowledge Inferences"
 authors:
   - family-names: Behr
-    given-names: [Alexander S.]
+    given-names: [A. S.]
   - family-names: Borgelt
-    given-names: [Hendrik]
+    given-names: [H.]
   - family-names: Kockmann
-    given-names: [Norbert]
+    given-names: [N.]
 date-released: 2024-01-01
 doi: 10.1007/s13222-024-00476-3
 url: https://doi.org/10.1007/s13222-024-00476-3
