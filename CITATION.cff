@@ -1,14 +1,17 @@
 cff-version: 1.2.0
-message: If you use this software, please cite it as below.
+message: "If you use this work, please cite it as below."
+title: "Reac4Cat-Ontology: Harnessing the Power of Ontological Description Logic in Catalysis Research as a Practical Approach to Knowledge Inferences"
 authors:
   - family-names: Behr
-    given-names: Alexander S.
-    orcid: https://orcid.org/0000-0003-4620-8248
-    affiliation: "TU Dortmund University"
+    given-names: A. S.
   - family-names: Borgelt
-    given-names: Hendrik
-    orcid: https://orcid.org/0000-0001-5886-7860
-    affiliation: "TU Dortmund University"
-title: Reac4Cat Ontology
-repository-code: https://github.com/AleSteB/Reac4Cat
-url: https://github.com/AleSteB/Reac4Cat
+    given-names: H.
+  - family-names: Kockmann
+    given-names: N.
+date-released: 2024-01-01
+doi: 10.1007/s13222-024-00476-3
+url: https://doi.org/10.1007/s13222-024-00476-3
+type: article
+journal: Datenbank Spektrum
+volume: 24
+pages: 139–150
