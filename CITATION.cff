@@ -14,4 +14,5 @@ url: https://doi.org/10.1007/s13222-024-00476-3
 type: article
 journal: Datenbank Spektrum
 volume: 24
-pages: 139–150
+start: 139
+end: 150
