@@ -1,18 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
+message: "If you use this work, please cite the following article."
 title: "Reac4Cat-Ontology: Harnessing the Power of Ontological Description Logic in Catalysis Research as a Practical Approach to Knowledge Inferences"
 authors:
   - family-names: Behr
-    given-names: A. S.
+    given-names: [A. S.]
   - family-names: Borgelt
-    given-names: H.
+    given-names: [H.]
   - family-names: Kockmann
-    given-names: N.
+    given-names: [N.]
 date-released: 2024-01-01
 doi: 10.1007/s13222-024-00476-3
 url: https://doi.org/10.1007/s13222-024-00476-3
 type: article
-journal: Datenbank Spektrum
-volume: 24
-start: 139
-end: 150
+journal:
+  name: Datenbank Spektrum
+  volume: 24
+  start: 139
+  end: 150
